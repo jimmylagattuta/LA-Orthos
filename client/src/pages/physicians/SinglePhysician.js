@@ -57,11 +57,10 @@ const SinglePhysician = () => {
         const cachedDataBeforeJson = localStorage.getItem(cacheKey);
         if (cachedDataBeforeJson) {
             const cachedDataOne = JSON.parse(cachedDataBeforeJson);
-            console.log('cachedDataOne.reviews', cachedDataOne.reviews);
-
+            console.log('cachedDataOne', cachedDataOne);
             // const cachedData = JSON.parse(cachedDataOne);
             // console.log('cachedData', cachedData);
-            return cachedDataOne.reviews.map((review, index) => {
+            return cachedDataOne.map((review, index) => {
                 console.log('review', review);
                 const filteredName = name
                     .split(/[,.]\s*/)
