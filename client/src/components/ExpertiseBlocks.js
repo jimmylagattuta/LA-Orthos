@@ -8,7 +8,7 @@ const ExpertiseBlocks = () => {
     useEffect(() => {
         const delay = setTimeout(() => {
             setShowComponent(true);
-        }, 1000); // Adjust the delay time (in milliseconds) as needed
+        }, 500); // Adjust the delay time (in milliseconds) as needed
 
         // Cleanup function to clear the timeout in case the component unmounts before the delay finishes
         return () => clearTimeout(delay);

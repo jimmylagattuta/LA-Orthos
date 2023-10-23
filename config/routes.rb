@@ -10,6 +10,7 @@ Rails.application.routes.draw do
       post "/login", to: "sessions#create"
       delete "/logout", to: "sessions#destroy"
       get "/pull_google_places_cache", to: "jobs#pull_google_places_cache"
+      post '/send-email', to: 'email#send_email'
 
     end
   end

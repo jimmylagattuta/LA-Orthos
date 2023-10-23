@@ -106,20 +106,9 @@ const Navbar = () => {
                                                 <NavLink
                                                     onClick={resetMobileMenu}
                                                     key={subItem}
-                                                    to={`${item.link}/${
-                                                        item.menu === 'Physicians'
-                                                            ? subItem
-                                                                .toLowerCase()
-                                                                .split(' ')[0]
-                                                            : subItem
-                                                                .toLowerCase()
-                                                                .split(' ')
-                                                                .join('-')
-                                                    }`}
+                                                    to={`${item.link}/${subItem.toLowerCase().split(' ').join('-')}`}
                                                     className={({ isActive }) =>
-                                                        isActive
-                                                            ? 'sub-link active'
-                                                            : 'sub-link'
+                                                        isActive ? 'sub-link active' : 'sub-link'
                                                     }>
                                                     {subItem}
                                                 </NavLink>

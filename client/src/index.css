@@ -509,7 +509,10 @@ img {
 
 /* PAGES STYLES */
 .pages-header {
-    /* background-image: url(https://i.imgur.com/R51cppU.webp); */
+    background-image: url(https://i.imgur.com/V3Vfsqi.webp);
+    background-size: contain;
+    background-position: top;
+    background-attachment: fixed;
     border-bottom: 5px solid rgb(243,74, 2);
     color: #fff;
     padding: 40px;
@@ -554,7 +557,7 @@ img {
 }
 
 .grid-item {
-    padding: 15px;
+    padding: 22px;
     width: calc(100% / 3);
 }
 
@@ -587,6 +590,10 @@ img {
 
 .physician-link {
     text-decoration: none;
+}
+
+.physician-link:active {
+    transform: translateY(2px) scale(0.95);
 }
 
 .physician-link .fas {
@@ -1323,6 +1330,20 @@ display: none;
   align-items: center;
   justify-content: center;
 }
+#chat-box-button-ready {
+    display: flex;
+    padding: 8px 20px 8px 20px;
+    margin: 1.6rem;
+    border-radius: 8rem;
+    border: none;
+    background-color: rgba(243,74, 2, 100%);
+    color: black;
+    align-self: center;
+    font-size: 0.9rem;
+    opacity: 80%;
+    align-items: center;
+    justify-content: center;
+  }
 #error-div {
   animation-name: appear;
   animation-duration: 2s;
@@ -1358,6 +1379,9 @@ display: none;
 }
 #chat-box-button-blue:active {
   transform: translateY(0.8px);
+}
+#chat-box-button-ready:active {
+    transform: translateY(0.8px);
 }
 #touchable {
   opacity: 60%;

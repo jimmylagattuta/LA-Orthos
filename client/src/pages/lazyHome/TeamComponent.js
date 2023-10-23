@@ -5,7 +5,7 @@ const TeamComponent = () => {
 
     useEffect(() => {
         // Simulate a delay of 2 seconds (adjust as needed)
-        const delay = 2000;
+        const delay = 1000;
         const timeoutId = setTimeout(() => {
             setIsLoading(false);
         }, delay);

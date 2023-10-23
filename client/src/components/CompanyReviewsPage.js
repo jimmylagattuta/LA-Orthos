@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { useCsrfToken } from './CsrfTokenContext'; // Import the hook
+
 
 const CompanyReviewsPage = () => {
     const [reviews, setReviews] = useState([]);
@@ -30,10 +32,11 @@ const CompanyReviewsPage = () => {
         const options = { year: 'numeric', month: 'long', day: 'numeric' };
         const formattedDate = new Intl.DateTimeFormat('en-US', options).format(
             date
-        );
-
-        return formattedDate;
-    };
+            );
+            
+            return formattedDate;
+        };
+        const { csrfToken, setCsrfToken } = useCsrfToken(); // Get the CSRF token and setter function from the context
     useEffect(() => {
         const cacheKey = 'cached_yelp_reviews';
 
@@ -56,43 +59,67 @@ const CompanyReviewsPage = () => {
         };
 
         const fetchReviews = () => {
+          
             const url =
-                process.env.NODE_ENV === 'production'
-                    ? 'https://la-orthos-bdc751615c67.herokuapp.com/api/v1/pull_google_places_cache'
-                    : 'http://localhost:3000/api/v1/pull_google_places_cache';
-        
-            fetch(url)
-                .then((response) => {
-                    if (response.ok) {
-                        return response.json();
-                    } else {
-                        throw new Error('Failed to fetch reviews');
-                    }
-                })
-                .then((data) => {
-                    // Filter reviews with the default profile photo URLs
-                    const filteredReviews = data.filter(
-                        (item) =>
-                            !defaultProfilePhotoUrls.includes(
-                                item.profile_photo_url
-                            )
-                    );
-        
-                    // Shuffle the filteredReviews array
-                    const shuffledReviews = shuffleArray(filteredReviews);
-        
-                    // Take the first three reviews
-                    const randomReviews = shuffledReviews.slice(0, 3);
-                    saveToCache(data);
-                    setReviews(randomReviews);
-                    setLoading(false);
-                })
-                .catch((err) => {
-                    console.error(err);
-                    setError(err.message);
-                    setLoading(false);
-                });
-        };
+              process.env.NODE_ENV === 'production'
+                ? 'https://la-orthos-bdc751615c67.herokuapp.com/api/v1/pull_google_places_cache'
+                : 'http://localhost:3000/api/v1/pull_google_places_cache';
+          
+            // Include the CSRF token in the headers of your fetch request
+            const headers = {
+              'Content-Type': 'application/json',
+              'X-CSRF-Token': csrfToken,
+            };
+          
+            fetch(url, { headers })
+              .then((response) => {
+                if (response.ok) {
+                  return response.json();
+                } else {
+                  throw new Error('Failed to fetch reviews');
+                }
+              })
+              .then((data) => {
+                // Check if data.reviews is a string
+                if (typeof data.reviews === 'string') {
+                  // Parse the JSON string into an array
+                  const reviewsArray = JSON.parse(data.reviews);
+                    console.log('reviewsArray', reviewsArray);
+                  // Set the CSRF token in the context (if needed)
+                  console.log('data', data);
+                  if (data.csrf_token) {
+                    console.log('token present');
+                    setCsrfToken(data.csrf_token);
+                  }
+          
+                  // Filter reviews with the default profile photo URLs
+                  const filteredReviews = reviewsArray.filter(
+                    (item) =>
+                      !defaultProfilePhotoUrls.includes(item.profile_photo_url)
+                  );
+          
+                  // Shuffle the filteredReviews array
+                  const shuffledReviews = shuffleArray(filteredReviews);
+          
+                  // Take the first three reviews
+                  const randomReviews = shuffledReviews.slice(0, 3);
+          
+                  saveToCache(data);
+                  setReviews(randomReviews);
+                  setLoading(false);
+                } else {
+                  throw new Error('Data.reviews is not a string');
+                }
+              })
+              .catch((err) => {
+                console.error(err);
+                setError(err.message);
+                setLoading(false);
+              });
+          };
+          
+          
+          
         
         // Function to shuffle an array using the Fisher-Yates algorithm
         function shuffleArray(array) {

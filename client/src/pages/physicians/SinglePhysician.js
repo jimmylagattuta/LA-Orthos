@@ -2,9 +2,13 @@ import { Link, useParams } from 'react-router-dom';
 import { physicians } from '../../data';
 const SinglePhysician = () => {
     const { physicianId } = useParams();
-    const physician = physicians.find(
-        (item) => item.name.split(' ')[0].toLowerCase() === physicianId
-    );
+    const physician = physicians.find((item) => {
+        const [firstName, ...otherNames] = item.name.split(' ');
+        const lastName = otherNames.join(' ').replace(/\s/g, '-'); // Replace spaces with hyphens
+        const fullName = `${firstName}-${lastName}`.toLowerCase();
+        return fullName === physicianId;
+    });
+    
     const { bio, image, name, practiceEmphasis, specialProcedures } = physician;
     const cacheKey = 'cached_yelp_reviews';
     const formatDate = (dateString) => {
@@ -57,11 +61,10 @@ const SinglePhysician = () => {
         const cachedDataBeforeJson = localStorage.getItem(cacheKey);
         if (cachedDataBeforeJson) {
             const cachedDataOne = JSON.parse(cachedDataBeforeJson);
-            console.log('cachedDataOne', cachedDataOne);
+            const reviewsArray = JSON.parse(cachedDataOne.reviews); // Parse the reviews string into an array  
             // const cachedData = JSON.parse(cachedDataOne);
             // console.log('cachedData', cachedData);
-            return cachedDataOne.map((review, index) => {
-                console.log('review', review);
+            return reviewsArray.map((review, index) => {
                 const filteredName = name
                     .split(/[,.]\s*/)
                     .filter(

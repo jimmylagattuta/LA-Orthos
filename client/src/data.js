@@ -381,13 +381,13 @@ export const physicians = [
             "After graduation, Matt enrolled at the Southern California University of Health Sciences in Whittier, earning his master’s degree in the physician assistant program. Matt excelled in his studies, receiving training in emergency medicine, orthopedic surgery, and pain management.",
             "Before joining the team at Los Angeles Orthopedic Surgery Specialists, Matt worked as a patient care technician, phlebotomist, and patient services representative. He welcomes anyone suffering from musculoskeletal pain to Los Angeles Orthopedic Surgery Specialists in Glendale, East Los Angeles and Tarzana."
         ],
-        image: 'https://i.imgur.com/krE9ZBc.webp'
+        image: 'https://i.imgur.com/7FwA1eX.webp'
     }
 ];
 
 export const services = [
     {
-        image: 'https://i.imgur.com/xlHH02p.webp',
+        image: 'https://i.imgur.com/tINd3CV.webp',
         name: 'Foot and Ankle Surgery',
         firstTitle: 'About Foot and Ankle Surgery',
         description: [
@@ -547,7 +547,7 @@ export const services = [
         link: '/services',
     },
     {
-        image: 'https://i.imgur.com/Mc8Slpi.webp',
+        image: 'https://i.imgur.com/Ml61WEi.webp',
         name: 'Shoulder Surgery',
         firstTitle: 'About Shoulder Surgery',
         description: [
@@ -780,7 +780,7 @@ export const services = [
         link: '/services',
     },
     {
-        image: '',
+        image: 'https://i.imgur.com/7GB0AQc.webp',
         name: 'Meniscus Repairs',
         firstTitle: 'About Meniscus Repairs',
         description: [
@@ -862,7 +862,7 @@ export const services = [
         link: '/services',
     },
     {
-        image: '',
+        image: 'https://i.imgur.com/oM8DFV9.webp',
         name: 'Ligament Reconstruction',
         firstTitle: 'About Ligament Reconstruction',
         description: [
@@ -900,7 +900,7 @@ export const services = [
         link: '/services',
     },
     {
-        image: '',
+        image: 'https://i.imgur.com/rZaoIFC.webp',
         name: 'Joint Injections',
         firstTitle: 'About Joint Injections',
         description: [
@@ -939,7 +939,7 @@ export const services = [
         link: '/services',
     },
     {
-        image: '',
+        image: 'https://i.imgur.com/vjzz2Z0.webp',
         name: 'PRP Injections',
         firstTitle: 'About PRP Injections',
         description: [
@@ -1112,7 +1112,7 @@ export const aboutPrivacyPolicy = [
 
 export const expertiseBlocks = [
     {
-        image: 'https://i.imgur.com/xlHH02p.webp',
+        image: 'https://i.imgur.com/tINd3CV.webp',
         width: '267px',
         height: '200px',
         name: 'Foot and Ankle Surgery',
@@ -1153,7 +1153,7 @@ export const expertiseBlocks = [
             'After your procedure, you receive a comprehensive rehabilitation plan, including pain management and physical therapy. Los Angeles Orthopedic Surgery Specialists is here to support you throughout your foot and ankle surgery, so call the office nearest to you or book your consultation online now.'
         ],
         link: '/footAndAnkleSurgery',
-        imageTwo: 'https://i.imgur.com/xlHH02p.webp',
+        imageTwo: 'https://i.imgur.com/tINd3CV.webp',
         component: 'Services',
         link: '/services',
         spanString: 'Foot and Ankle Surgery',
@@ -1296,7 +1296,7 @@ export const expertiseBlocks = [
         spanString: 'Hand and Wrist Surgery'
     },
     {   
-        image: 'https://i.imgur.com/Mc8Slpi.webp',
+        image: 'https://i.imgur.com/Ml61WEi.webp',
         width: '267px',
         height: '200px',
         name: 'Shoulder Surgery',
@@ -1334,7 +1334,7 @@ export const expertiseBlocks = [
             "To schedule your shoulder surgery, call Los Angeles Orthopedic Surgery Specialists or click on the online booking feature today."
         ],
         link: '/shoulderSurgery',
-        imageTwo: 'https://i.imgur.com/Mc8Slpi.webp',
+        imageTwo: 'https://i.imgur.com/Ml61WEi.webp',
         component: 'Services',
         link: '/services',
         spanString: 'Shoulder Surgery'
@@ -1385,7 +1385,7 @@ export const expertiseBlocks = [
         spanString: 'Sports Medicine'
     },
     {   
-        image: '',
+        image: 'https://i.imgur.com/cRAxygj.webp',
         width: '267px',
         height: '200px',
         name: 'Arthroscopy',
@@ -1438,7 +1438,7 @@ export const expertiseBlocks = [
             "Are you ready to learn more about arthroscopy? Click the online booking link or call the Los Angeles Orthopedic Surgery Specialists office near you now."
         ],
         link: '/arthroscopy',
-        imageTwo: '',
+        imageTwo: 'https://i.imgur.com/cRAxygj.webp',
         component: 'Services',
         link: '/services',
         spanString: 'Arthroscopy'
@@ -1565,7 +1565,7 @@ export const expertiseBlocks = [
         spanString: 'ACL Reconstruction'
     },
     {   
-        image: '',
+        image: 'https://i.imgur.com/7GB0AQc.webp',
         width: '267px',
         height: '200px',
         name: 'Meniscus Repairs',
@@ -1602,7 +1602,7 @@ export const expertiseBlocks = [
             "Schedule your evaluation today. Call the office or request an appointment online."
         ],
         link: '/meniscusRepairs',
-        imageTwo: '',
+        imageTwo: 'https://i.imgur.com/7GB0AQc.webp',
         component: 'Services',
         link: '/services',
         spanString: 'Meniscus Repairs'
@@ -1659,7 +1659,7 @@ export const expertiseBlocks = [
         spanString: 'Arthritis Care'
     },
     {   
-        image: '',
+        image: 'https://i.imgur.com/oM8DFV9.webp',
         width: '267px',
         height: '200px',
         name: 'Ligament Reconstruction',
@@ -1697,13 +1697,13 @@ export const expertiseBlocks = [
             "Schedule an evaluation at Los Angeles Orthopedic Surgery Specialists today for personalized care designed to improve your mobility and orthopedic health. Call the office or request an appointment using their secure online service."
         ],
         link: '/ligamentReconstruction',
-        imageTwo: '',
+        imageTwo: 'https://i.imgur.com/oM8DFV9.webp',
         component: 'Services',
         link: '/services',
         spanString: 'Ligament Reconstruction'
     },
     {   
-        image: '',
+        image: 'https://i.imgur.com/rZaoIFC.webp',
         width: '267px',
         height: '200px',
         name: 'Joint Injections',
@@ -1742,13 +1742,13 @@ export const expertiseBlocks = [
             "Schedule your evaluation at Los Angeles Orthopedic Surgery Specialists today by calling the office or requesting an appointment using their online service."
         ],
         link: '/jointInjections',
-        imageTwo: '',
+        imageTwo: 'https://i.imgur.com/rZaoIFC.webp',
         component: 'Services',
         link: '/services',
         spanString: 'Joint Injections'
     },
     {   
-        image: '',
+        image: 'https://i.imgur.com/vjzz2Z0.webp',
         width: '267px',
         height: '200px',
         name: 'PRP Injections',
@@ -1785,7 +1785,7 @@ export const expertiseBlocks = [
             "Schedule an evaluation at Los Angeles Orthopedic Surgery Specialists today to learn more about PRP injections. Call the office or request an appointment online."
         ],
         link: '/prpInjections',
-        imageTwo: '',
+        imageTwo: 'https://i.imgur.com/vjzz2Z0.webp',
         component: 'Services',
         link: '/services',
         spanString: 'PRP Injections'
@@ -2082,6 +2082,7 @@ export const navMenu = [
         menu: 'Physicians',
         link: '/physicians',
         subMenuItems: physicians.map((item) => {
+            console.log('item', item);
             return item.name;
         }),
     },

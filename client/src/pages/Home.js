@@ -25,7 +25,7 @@ const Home = () => {
         // Simulate loading delay of 3 seconds for the map
         const mapTimeout = setTimeout(() => {
             setShowMap(true);
-        }, 3000);
+        }, 1500);
 
         return () => clearTimeout(mapTimeout);
     }, []);

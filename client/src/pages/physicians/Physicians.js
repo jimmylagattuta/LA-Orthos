@@ -19,8 +19,12 @@ const Physicians = () => {
                                 <Link
                                     className='physician-link'
                                     to={`/physicians/${
-                                        physician.name.toLowerCase().split(' ')[0]
-                                    }`}>
+                                        physician.name
+                                            .toLowerCase()
+                                            .split(' ')
+                                            .join('-') // Replace spaces with hyphens
+                                    }`}
+                                >
                                     <img
                                         src={physician.image}
                                         alt={physician.name}
@@ -31,18 +35,27 @@ const Physicians = () => {
                             <Link
                                 className='physician-link'
                                 to={`/physicians/${
-                                    physician.name.toLowerCase().split(' ')[0]
-                                }`}>
+                                    physician.name
+                                        .toLowerCase()
+                                        .split(' ')
+                                        .join('-') // Replace spaces with hyphens
+                                }`}
+                            >
                                 <h5 className='physician-name'>{physician.name}</h5>
                             </Link>
                             <Link
                                 className='physician-link'
                                 to={`/physicians/${
-                                    physician.name.toLowerCase().split(' ')[0]
-                                }`}>
+                                    physician.name
+                                        .toLowerCase()
+                                        .split(' ')
+                                        .join('-') // Replace spaces with hyphens
+                                }`}
+                            >
                                 Read Bio
                                 <i className='fas fa-arrow-right physician-bio-icon'></i>
                             </Link>
+
                         </div>
                     );
                 })}
