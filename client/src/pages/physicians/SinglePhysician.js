@@ -141,7 +141,7 @@ const SinglePhysician = () => {
                     </div>
                     <div className='physician-right'>
                         <h5 className='physician-name'>{name}</h5>
-                        {/* {bio.map((item, index) => {
+                        {bio.map((item, index) => {
                             return (
                                 <div key={index}>
                                     {index > 0 && <div className='popout-content'><p className='page-description'>{item}</p></div>}
@@ -150,12 +150,8 @@ const SinglePhysician = () => {
                                 // <p key={index} className='page-description'>
                                 //     {item}
                                 // </p>
-                                
                             );
-                        })} */}
-                        <p className='popout-content'>
-                            Los Angeles Orthopedic Surgery Specialists stand out for their commitment to excellence, boasting a team of highly skilled and professional doctors dedicated to providing top-notch orthopedic care. Renowned for their expertise in the field, these specialists bring a wealth of experience and advanced knowledge to the table. Patients can trust in their comprehensive understanding of musculoskeletal conditions and cutting-edge treatment approaches. With a focus on personalized care, Los Angeles Orthopedic Surgery Specialists ensure that each patient receives tailored solutions to address their unique orthopedic needs. Whether it's surgical interventions, rehabilitation strategies, or preventive measures, the professional doctors at Los Angeles Orthopedic Surgery Specialists are committed to delivering exceptional and compassionate healthcare services, making them a trusted choice for individuals seeking top-tier orthopedic care in the region.
-                        </p>
+                        })}
 
                     </div>
                 </div>
