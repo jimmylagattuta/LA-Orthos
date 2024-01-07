@@ -33,10 +33,10 @@ export const physicians = [
     {
         name: 'Whitty Lee',
         bio: [
-            "Whitty Li is a Physician Assistant with experience in both primary care and orthopedic settings. She currently works at Manhattan Medical Arts in Manhattan, NY as a Primary Care PA, where she provides effective physician support for up to 30+ patients a day in an outpatient setting. Prior to this, Whitty worked at Hospital for Special Surgery as an Inpatient Orthopedic Floor PA, where she successfully triaged and managed medical and surgical issues for up to 40+ inpatient patients at a time, with a specialty in total knee and hip arthroplasty patients.",
-            "Whitty received her Master of Science from Stony Brook University's Physician Assistant Program, where her Master’s Project focused on TAVR vs SAVR in intermediate-risk patients. She also holds a Bachelor of Science in Biological Sciences from the University of California, Irvine.",
+            "Whitty Li, a dedicated Physician Associate, brings a wealth of experience in both primary and orthopedic care.",
+            "Whitty earned her Master of Science from Stony Brook University's Physician Assistant Program, where her Master’s Project delved into the comparison of TAVR vs SAVR in intermediate-risk patients. Complementing her advanced degree, she holds a Bachelor of Science in Biological Sciences from the University of California, Irvine.",
             "In addition to her clinical experience, Whitty has worked as a Medical Assistant in various healthcare settings, including Coastal Cardiology of OC, Damirchi Family Practice, and Coastal Care Urgent Care. She has also volunteered her time with organizations such as Ronald McDonald House of Long Island and Ellen’s Breast Cancer 5k Run.",
-            "Whitty is certified as a Physician Assistant by the National Commission of Certification of Physician Assistants and is licensed to practice in both New York and California. She holds certifications in Advanced Cardiac Life Support, Basic Life Support, and Infection Control Barrier Protections. Whitty is a member of the New York State Society of Physician Assistants and the American Association of Physician Assistants."
+            "Whitty is certified as a Physician Assistant by the National Commission of Certification of Physician Assistants, licensed to practice in both New York and California. She upholds the highest standards of patient care with certifications in Advanced Cardiac Life Support, Basic Life Support, and Infection Control Barrier Protections. Her dedication to continuous learning and excellence underscores her commitment to providing top-notch healthcare in both primary care and orthopedics."
         ],
         image: 'https://i.imgur.com/eHszN7V.webp',
         imageMedium: 'https://i.imgur.com/bpLcmgn.webp'
@@ -70,11 +70,9 @@ export const physicians = [
         name: 'Natalie Hammond',
         bio: [
             "Natalie Hammond, RCP, PA-C, provides extraordinary patient care with a deep knowledge of family and internal medicine.",
-            "In her 10 years at Los Angeles Orthopedic Surgery Specialists, Natalie is part of an expert team of providers within the Los Angeles region. The team has offices in East Los Angeles, Wilshire, Santa Fe Springs, Pico Rivera, Tarzana, Encino, Valencia, and Montebello, California.",
-            "Natalie has a passion for providing culturally adaptive quality care. She started her career journey with an associate of arts in psychology from Moorpark College in Moorpark, California, followed by an associate of science in health science from Excelsior University in Albany, New York.",
-            "She then went on to complete her bachelor’s from Charles Drew University of Medicine and Science in Los Angeles, where she graduated with honors.",
-            "Natalie brings extensive clinical experience to caring for her clients. After completing several rounds of physician assistant rotations in 2011, she started her journey in orthopedic medicine at First Choice Healthcare Medical Group.",
-            "Natalie has an energy and passion for providing quality orthopedic care. She continues to hone her skills in orthopedic care."
+            "She started her career journey by earning an Associate of Arts in Psychology from Moorpark College, followed by an Associate of Science in Health Science from Excelsior University in Albany, New York.",
+            "She earned her Bachelor of Arts from Charles Drew University of Medicine and Science in Los Angeles, where she graduated with honors.",
+            "Natalie brings extensive clinical experience and passion for providing quality orthopedic care to all of her patients. Natalie is available for patient care at the Encino and Valenica locations."
         ],
         image: 'https://i.imgur.com/AxgMPr1.webp',
         imageMedium: 'https://i.imgur.com/Wy9nRnS.webp'
@@ -105,10 +103,10 @@ export const physicians = [
     {
         name: 'Nora Nazarian',
         bio: [
-            "Nora Nazarian, PA, is a board-certified physician associate at Los Angeles Orthopedic Surgery Specialists, with offices in East Los Angeles, Wilshire, Santa Fe Springs, Pico Rivera, Tarzana, Encino, Valencia, and Montebello, California.",
+            "Nora Nazarian, PA-C, is a certified physician associate who takes pride in fostering enduring connections with her patients, prioritizing comprehensive and compassionate care.",
             "A Southern California native, Nora earned her Bachelor of Arts in psychology, with a minor in child development, at the University of California, Los Angeles. She earned her Master of Physician Assistant Practice (MPAP) in 2017 from Keck School of Medicine of the University of Southern California. ",
-            "She found her passion for orthopedic surgery during her first clinical clerkship at the Glendale Adventist Medical Center. As a physician associate, Nora is a medical provider able to work autonomously managing complex patient conditions and assist the Los Angeles Orthopedic Surgery Specialists surgeons in various procedures. She enjoys building lasting relationships with all patients and has experience treating pediatric patients in the private orthopedic office. She also manages the practice’s Worker’s Compensation patients. ",
-            "Nora enjoys spending time with her family & friends, traveling, golfing, and exploring new restaurants. Nora is available for patient care at the Tarzana and Valencia location."
+            "She found her passion for orthopedic surgery during her first clinical internship at Glendale Adventist Medical Center. As a dedicated physician associate, Nora takes pride in fostering enduring connections with her patients, prioritizing comprehensive and compassionate care. With a focus on pediatric patients, she has honed her skills, where she also addresses the unique needs of young individuals.  She also manages the healthcare journey of Worker's Compensation patients.",
+            "Nora is committed to providing personalized and effective medical solutions, ensuring that every patient feels heard and supported. Her professional journey has instilled in her a profound understanding of the intricacies of orthopedic care, enabling her to contribute significantly to her practice. Nora is available for patient care at the Encino, Tarzana and Valencia locations."
         ],
         image: 'https://i.imgur.com/bmFp0yU.webp',
         imageMedium: 'https://i.imgur.com/tXDWgIq.webp'
@@ -255,12 +253,12 @@ export const physicians = [
     {
         name: 'Daniel Acevedo',
         bio: [
-            "Daniel Acevedo, MD, is a board-certified orthopedic surgeon with a subspecialty focus on shoulder and elbow reconstruction. He practices at Los Angeles Orthopedic Surgery Specialists, which has locations in offices in East Los Angeles, Wilshire, Santa Fe Springs, Tarzana, Encino, Valencia, and Montebello, California.",
+            "Daniel Acevedo, MD, is a board-certified orthopedic surgeon with a subspecialty focus on shoulder and elbow reconstruction.",
             "Dr. Acevedo grew up in Southern California and attended UC Irvine for his undergraduate and medical school training. In medical school, he was elected to the Alpha Omega Alpha Honor Medical Society and earned numerous awards for scholastic and clinical achievement. After medical school, he pursued training in orthopedic surgery at LAC+USC Medical Center, where he was elected administrative chief resident. He also received multiple awards, including the Herman Epstein Award, which is awarded to the best senior resident in the class. He then traveled to Philadelphia to complete a shoulder and elbow surgery fellowship at the prestigious Rothman Institute at Thomas Jefferson University Hospital.",
             "During his fellowship, he worked with world-renowned surgeons in the field of shoulder and elbow surgery. He received advanced training in shoulder and elbow replacements, shoulder and elbow arthroscopy, shoulder and elbow instability, upper extremity fractures, rotator cuff repairs, tendon transfers for the shoulder, and sports injuries surrounding the shoulder and elbow, including Tommy John surgery, also known as ulnar collateral ligament (UCL) reconstruction.",
             "He has published numerous book chapters, journal articles, and surgical training videos for shoulder and elbow surgery. He enjoys teaching and has served as faculty for many local and national courses. He has published over 30 peer-reviewed articles and has a research interest in biologic augments for rotator cuff tendon repair, shoulder arthroplasty, and Tommy John surgery outcomes.",
             "He continues to use evidence-based practices with the latest medical research and cutting-edge treatments to provide his patients with the best possible care. Dr. Acevedo’s skill set allows him to treat a wide array of patients, and he has a keen interest in treating competitive and recreational athletes. He specializes in minimally invasive shoulder replacements.",
-            "Dr. Acevedo enjoys staying fit, working out, golfing, eating healthy, and spending time with his family and his dogs."
+            "Dr. Acevedo is available to see patients at the Encino, Tarzana, Thousand Oaks, and Valencia locations."
         ],
         image: 'https://i.imgur.com/iJphX4d.webp',
         imageMedium: 'https://i.imgur.com/1ctDHWW.webp'
@@ -268,10 +266,10 @@ export const physicians = [
     {
         name: 'Annie Yang',
         bio: [
-            "As a physician assistant at Los Angeles Orthopedic Surgery Specialists, Annie Yang, PA-C, delivers top-quality care to residents in Greater Los Angeles. The practice has offices in East Los Angeles, Wilshire, Santa Fe Springs, Pico Rivera, Tarzana, Encino, Valencia, and Montebello, California.",
+            "As a physician associate, Annie Yang, PA-C, delivers top-quality care to residents in Greater Los Angeles.",
             "Education is a central focus for Annie. She earned a Bachelor of Science in health promotion and disease prevention at the University of Southern California Keck School of Medicine in Los Angeles. She remained at USC to earn her Master of Science in global medicine as well as a Master of Physician Assistant Practice.",
             "Annie has extensive research experience, delving into the risks of vitamin D deficiency during pregnancy and the role of emotional health in addiction. She also has experience in occupational health.",
-            "Patients enjoy working with Annie, in part because of her dedication to providing outstanding care that always places the patient’s unique needs as the overriding focus. A compassionate provider, she ensures each patient feels heard and understood as they navigate treatment."
+            "Patients enjoy working with Annie, in part because of her dedication to providing outstanding care that always places the patient’s unique needs as the overriding focus. A compassionate provider, she ensures each patient feels heard and understood as they navigate treatment. Annie is available to see patients at the Los Angeles and Santa Fe Springs locations."
         ],
         image: 'https://i.imgur.com/hMChcLM.webp',
         imageMedium: 'https://i.imgur.com/465THjb.webp'
@@ -279,11 +277,10 @@ export const physicians = [
     {
         name: 'Bryan Sandoval',
         bio: [
-            "Bryan Sandoval, PA-C, is a deeply compassionate physician assistant and an integral part of the team at Los Angeles Orthopedic Surgery Specialists.",
-            "Through his role at the practice, Bryan works closely with patients throughout the Los Angeles area, including East Los Angeles, Wilshire, Santa Fe Springs, Pico Rivera, Tarzana, Encino, Valencia, and Montebello, California.",
-            "Bryan completed a Bachelor of Science in kinesiology at the University of Nevada, Las Vegas. He then earned a Masters in Physician Assistant Studies at Western University of Health Sciences in Pomona, California.",
-            "His professional experience includes a leadership role in a dermatology practice. With a focus on orthopedic sports medicine, Bryan also has significant experience addressing a wide range of orthopedic needs.",
-            "Bryan is a proud member of the California Association of Physician Assistants and the American Academy of Physician Assistants. Community service work like providing high school sports physical exams and health screenings at an assisted living facility allow him to give back."
+            "Bryan Sandoval, PA-C, is a deeply compassionate physician associate.",
+            "Bryan completed a Bachelor of Science in kinesiology at the University of Nevada, Las Vegas. He then earned a Masters in Physician Assistant Studies at Western University of Health Sciences in Pomona, California. Bryan has a diverse professional background, particularly in the field of healthcare, with a specific emphasis on dermatology and orthopedic sports medicine. ",
+            "Bryan is a proud member of the California Association of Physician Assistants and the American Academy of Physician Assistants. Bryan's involvement in community service, such as providing high school sports physical exams and health screenings at an assisted living facility, reflects his commitment to giving back to the community.",
+            "These activities not only contribute to the well-being of individuals in need but also showcase Bryan's dedication to promoting health and wellness beyond his professional roles. Bryan is available to see patients at the Los Angeles and Santa Fe Springs locations."
         ],
         image: 'https://i.imgur.com/dD2Loba.webp',
         imageMedium: 'https://i.imgur.com/X6kduLV.webp'
@@ -292,11 +289,10 @@ export const physicians = [
         name: 'David Collazo',
         bio: [
             "David Collazo, DC, leverages his extensive chiropractic training and experience to improve the quality of life of those in his care.",
-            "As a chiropractor at Los Angeles Orthopedic Surgery Specialists, Dr. Collazo currently serves patients in and around Los Angeles, with offices in East Los Angeles, Wilshire, Santa Fe Springs, Pico Rivera, Tarzana, Encino, Valencia, and Montebello, California.",
             "Dr. Collazo began his studies at Cerritos College in Norwalk, California, where he earned an associate degree in physical education. He went on to study at California State University Long Beach before entering Southern California University of Health Sciences, Los Angeles College of Chiropractic, where he completed his Doctor of Chiropractic.",
             "Licensed to practice chiropractic care in California since 1995, Dr. Collazo has experience in both private practice and within larger group practices. Those in his care appreciate his communication skills and willingness to truly get to know them and their unique needs and goals.",
             "Dr. Collazo uses a wide range of techniques to assist patients, relying on his advanced training and experience to deliver highly customized care. He finds his work deeply rewarding, and loves watching patients go on to thrive without pain and physical limitation.",
-            "Remaining connected to his community is important to Dr. Collazo. He enjoys taking on roles with Baldwin Park Healthy Kids Program, San Gabriel Chamber of Commerce, and Alhambra Rotary Club."
+            "Dr. Collazo values staying connected to his community and actively participates in various community organizations. Involvement with initiatives like the Baldwin Park Healthy Kids Program, San Gabriel Chamber of Commerce, and Alhambra Rotary Club suggests that he is not only dedicated to his professional responsibilities but also committed to making a positive impact on the broader community. Dr. Collazo is available to see patients at the Encino and Santa Fe Springs locations."
         ],
         image: 'https://i.imgur.com/hytDGBN.webp',
         imageMedium: 'https://i.imgur.com/U74jqAd.webp'
@@ -304,12 +300,11 @@ export const physicians = [
     {
         name: 'David Moriel',
         bio: [
-            "David Moriel, NP, is an exceptional adult-gerontology acute care nurse practitioner at Los Angeles Orthopedic Surgery Specialists, with offices in East Los Angeles, Wilshire, Santa Fe Springs, Pico Rivera, Tarzana, Encino, Valencia, and Montebello, California.",
-            "A native Angeleno, David is a bilingual, nationally-accredited, and board-certified nurse practitioner. After completing his undergraduate studies at the Interamerican University of Puerto Rico with a degree in nursing, he completed his Master of Science in Nursing from Walden University in Minneapolis, Minnesota.",
+            "David Moriel, NP, a native Angeleno, is a bilingual, nationally-accredited, and board-certified nurse practitioner.",
+            "After completing his undergraduate studies at the Interamerican University of Puerto Rico with a degree in nursing, he completed his Master of Science in Nursing from Walden University in Minneapolis, Minnesota.",
             "David worked in the Subspecialty & Critical Care settings at White Memorial, LAC+USC, and USC Keck Medical Centers before joining Los Angeles Orthopedic Surgery Specialists in 2019. He has experience in critical care, fracture care, wound care management, suturing and assisting during surgical procedures, giving injections, and monitoring and treating patients pre-and post-surgery.",
-            "David is ANCC (American Nurses Credentialing Certification) and BLS/ACLS certified.",
-            "David enjoys staying up to date on the most current practice recommendations by attending continuing education courses based on the advanced critical care provider’s formation. During his spare time, David enjoys traveling, working out, reading, and spending time with family.",
-            "David is available for patient care at the Los Angeles location."
+            "David is ANCC (American Nurses Credentialing Certification) and BLS/ACLS certified. David enjoys staying up to date on the most current practice recommendations by attending continuing education courses based on the advanced critical care provider’s formation.",
+            "David is available for patient care at the Los Angeles and Santa Fe Springs locations."
         ],
         image: 'https://i.imgur.com/EdrJ2sh.webp',
         imageMedium: 'https://i.imgur.com/WuBjGfD.webp'
@@ -330,11 +325,10 @@ export const physicians = [
     {
         name: 'Felipe Nunez',
         bio: [
-            "Felipe Nuñez, PA-C, is the  VP of Medical Affairs for Los Angeles Orthopedic Surgery Specialists. He understands the importance of quality health care. As a 12-year interdisciplinary team member at Los Angeles Orthopedic Surgery Specialists, Felipe Nuñez focuses on each patient’s unique needs.",
-            "The practice has several locations in Greater Los Angeles: East Los Angeles, Wilshire, Santa Fe Springs, Pico Rivera, Tarzana, Encino, Valencia, and Montebello, California.",
-            "Felipe started his studies at Cal Poly Pomona in Pomona, California, with a Bachelor of Science in sports medicine, learning about surgical and rehabilitative techniques. He then completed a Masters of Science in physician assistant studies from Western University of Health Sciences, also in Pomona.",
-            "He built on his skills through clinical rotations and practical experience in family medicine, emergency medicine, internal medicine, and general surgery. He started as a physician assistant with Family Care Specialist in Montebello for three years.",
-            "Felipe is a proud member of the California Academy of PAs and the American Academy of Physician Assistants."
+            "Felipe Nuñez, PA-C, is a physician associate with a significant and long-standing role within the group. Serving as the Vice President of Medical and being an integral member of the leadership team, Felipe plays a crucial role in decision-making, strategy development, and overall management of medical affairs within the group.",
+            "Felipe started his studies at Cal Poly Pomona in California, earning a Bachelor of Science in sports medicine. He then completed a Master of Science in physician assistant studies at the Western University of Health Sciences, Pomona.",
+            "Felipe has a well-rounded background, building his skills through diverse clinical rotations in family medicine, emergency medicine, internal medicine, and general surgery. Additionally, Felipe's involvement in supporting community events and volunteer coaching in the community shows a commitment to giving back and making a positive impact beyond his professional responsibilities.",
+            "Felipe is a proud member of the California Academy of Physician Associates and the American Academy of Physician Assistants. Felipe is available for patient care at the Los Angeles location."
         ],
         image: 'https://i.imgur.com/TKBoe5n.webp',
         imageMedium: 'https://i.imgur.com/RPVdhmY.webp'
@@ -342,11 +336,9 @@ export const physicians = [
     {
         name: 'John Giannini',
         bio: [
-            "John R. Giannini, PA-C, is a seasoned professional who brings more than 40 years of applied practice as a physician assistant, now with the team at Los Angeles Orthopedic Surgery Specialists.",
-            "The practice provides extensive care for communities within Greater Los Angeles, with offices in East Los Angeles, Wilshire, Santa Fe Springs, Pico Rivera, Tarzana, Encino, Valencia, and Montebello, California.",
-            "John found his passion for quality health care right after high school, first earning his emergency medical technician certification from Loma Linda University in Loma Linda, California, and then paramedic certification a year later.",
-            "He followed this with an Associate of Applied Science degree from Cerritos College in Norwalk, California, and then completed his physician assistant credentials from the LAC+USC Medical Center in Los Angeles.",
-            "Mr. Giannini also is part of Galloni Enterprises Medical Group Inc. in Los Angeles and Integrated Health Services Inc. in Santa Ana, California."
+            "John R. Giannini, PA-C, is a seasoned professional who brings more than 40 years of applied practice as a physician associate.",
+            "John found his passion for quality health care right after high school, first earning his emergency medical technician certification from Loma Linda University in Loma Linda, California, and then paramedic certification a year later. He completed an Associate of Applied Science degree from Cerritos College and then completed his physician assistant credentials from the LAC+USC Medical Center in Los Angeles.",
+            "John has accumulated significant experience and expertise in his field, proving valuable in providing quality care, understanding patient needs, and effectively addressing a variety of medical situations. John is available for patient care at the Wilshire location."
         ],
         image: 'https://i.imgur.com/EDc3Fgg.webp',
         imageMedium: 'https://i.imgur.com/cWkcDle.webp'
@@ -354,12 +346,10 @@ export const physicians = [
     {
         name: 'Jonathan Naick',
         bio: [
-            "Jonathan Naick, MSPAS, MPH, MEd, PA-C, ATC, CPH, values quality orthopedic care and thrives with Los Angeles Orthopedic Surgery Specialists.",
-            "The team serves people of all ages in and around Los Angeles, with offices in East Los Angeles, Wilshire, Santa Fe Springs, Pico Rivera, Tarzana, Encino, Valencia, and Montebello, California.",
-            "Jonathan shares a deep passion about providing his patients with nothing short of excellent care. His journey in health care started with a Bachelor of Science in athletic training from the University of Nevada, Las Vegas in Las Vegas, Nevada.",
-            "This was immediately followed with a Master of Education in advanced athletic training and sports medicine from the University of Virginia in Charlottesville, Virginia.",
-            "After completing his master’s, Jonathan worked as an assistant athletic trainer at Whittier College in Whittier, California, and then an athletic trainer and physical therapy aide at Gardena Physical Therapy in Gardena, California. He also realized a second calling within the world of orthopedic medicine.",
-            "Jonathan completed a master of science in physician assistant studies in 2017 from Touro University in Vallejo, California. He currently continues his education at the University of Lynchburg in Lynchburg, Virginia, with a distance doctor of medical science program."
+            "Jonathan Naick, MSPAS, MPH, MEd, PA-C, ATC, CPH, began his journey in health care by earning a Bachelor of Science in athletic training from the University of Nevada, Las Vegas followed by a Master of Education in advanced athletic training and sports medicine from the University of Virginia in Charlottesville, Virginia.",
+            "Jonathan completed a Master of Science in physician assistant studies in 2017 from Touro University in Vallejo and is currently pursuing a doctorate in medical science degree at the University of Lynchburg in Virginia.",
+            "Jonathan worked as an assistant athletic trainer at Whittier College and then as an athletic trainer and physical therapy aide at Gardena Physical Therapy in Gardena.",
+            "Jonathan shares a deep passion about providing his patients with nothing short of excellent care. Jonathan is available for patient care at the Wilshire location. "
         ],
         image: 'https://i.imgur.com/JVSapeo.webp',
         imageMedium: 'https://i.imgur.com/VU3k4Ta.webp'
@@ -367,9 +357,10 @@ export const physicians = [
     {
         name: 'Michelle Chang',
         bio: [
-            "Michelle Chang, PA-C, prides herself on quality care for her patients at Los Angeles Orthopedic Surgery Specialists. The team serves people of all ages in and around Los Angeles, with offices in East Los Angeles, Wilshire, Santa Fe Springs, Pico Rivera, Tarzana, Encino, Valencia, and Montebello, California. Michelle received her Bachelor of Arts in Human Development from the University of California, San Diego, where she graduated summa cum laude and was inducted into the Phi Beta Kappa honor society.",
-            "She then completed the Post-Baccalaureate Pre-Medical Program at the University of Southern California where she also obtained her Master of Physician Assistant Practice.",
-            "Michelle enjoys golfing and pilates."
+            "Michelle Chang, PA-C, prides herself on providing top quality care for her patients. Michelle started her educational journey at the University of California, San Diego, where she graduated summa cum laude with a Bachelor of Arts in human development.",
+            "She then pursued a post-baccalaureate pre-medical program at the University of Southern California in Los Angeles. She obtained a Master of Public Administration and Policy degree at USC’s Keck School of Medicine.",
+            "Michelle has completed extensive training on top of her educational background, including working for USC Medical Center and Antelope Valley Medical Center in Lancaster, California.  Additionally, she gained specialized otolaryngology and orthopedic surgery experience at Cedar-Sinai Medical Center in Los Angeles and Adventist Health Glendale in Glendale, California, respectively and also brings expertise in treatments centered on mental health.",
+            "Michelle works closely with Dr. Malafa, particularly in supporting patients with hand-related medical concerns. She is a member of the American Academy of Physician Assistants (AAPA). Michelle is available for patient care at the Los Angeles location."
         ],
         image: 'https://i.imgur.com/mCccSXP.webp',
         imageMedium: 'https://i.imgur.com/hXrEpk8.webp'
@@ -377,13 +368,12 @@ export const physicians = [
     {
         name: 'Mark Lee',
         bio: [
-            "Mark Lee, PA-C, expands the limits of routine health services to assure a patient-wellness approach. With the team at Los Angeles Orthopedic Surgery Specialists, Mr. Lee expands on what it means to customize care around a patient’s individual needs.",
-            "The practice provides several locations within Greater Los Angeles, with offices in East Los Angeles, Wilshire, Santa Fe Springs, Pico Rivera, Tarzana, Encino, Valencia, and Montebello, California.",
-            "Mark’s path as a physician assistant started with a Bachelor of Science and physician assistant certificate of completion from Charles Drew University of Medicine and Science in Los Angeles. He then eagerly jumped into the field to acquire hands-on experience, although he remains passionate about lifelong learning.",
+            "Mark Lee, PA-C, expands the limits of routine health services to assure a patient-wellness approach.",
+            "Mark’s path as a physician assistant started with a Bachelor of Science and physician assistant certificate of completion from Charles Drew University of Medicine and Science in Los Angeles.",
             "Mark has more than a decade of practical experience in family and internal medicine settings. Among his early experiences, he served as a physician assistant for First Choice Health Medical Group.",
-            "He went on to hone his expertise elsewhere, such as Bell Gardens Family Medical Center in Bell Gardens, California, and East Valley Community Health Center.",
+            "He later served at Bell Gardens Family Medical Center and East Valley Community Health Center. These experiences provided him with the necessary skills to treat a wide array of common acute conditions with incredible precision.",
             "These experiences provide him with the necessary skills to treat a wide array of common acute conditions with incredible precision. Additionally, Mr. Lee helps manage chronic conditions with the proper medical examinations and supportive care.",
-            "His patient-wellness approach comes full circle with his extensive knowledge of working in multicultural environments."
+            "Mark is available for patient care at the Los Angeles location."
         ],
         image: 'https://i.imgur.com/7EwZJd8.webp',
         imageMedium: 'https://i.imgur.com/EA9r6UD.webp'
@@ -391,13 +381,12 @@ export const physicians = [
     {
         name: 'Matt Cikra',
         bio: [
-            "Matt Cikra, DPM, AACFAS, is a fellowship-trained podiatrist and foot and ankle surgeon at Los Angeles Orthopedic Surgery Specialists, providing high-quality orthopedic care to people in East Los Angeles, Wilshire, Santa Fe Springs, Pico Rivera, Tarzana, Encino, Valencia, and Montebello, California.",
+            "Matt Cikra, DPM, AACFAS, is a fellowship-trained podiatrist.",
             "Dr. Cikra began his career at California State University, Long Beach, earning his bachelor’s degree in psychology. After graduating, he decided to pursue a medical career and enrolled at the Western University of Health Sciences in Pomona, California, earning his Doctor of Podiatric Medicine.",
             "Before entering private practice, Dr. Cikra completed a podiatric medicine and surgery residency at West Penn Hospital in Pittsburgh, Pennsylvania, and a podiatry fellowship at Newport Foot & Ankle Center in Newport Beach, California.",
             "Dr. Cikra excelled in both programs, receiving extensive training in traditional and minimally invasive foot and ankle surgeries.",
-            "When he isn’t working, Dr. Cikra participates in continuing education. He also enjoys writing and contributing to medical publications.",
-            "Dr. Cikra is a member of several professional organizations, including the American College of Foot & Ankle Surgeons and the American Academy of Podiatric Sports Medicine.",
-            "He welcomes anyone suffering from foot or ankle pain to schedule an appointment at Los Angeles Orthopedic Surgery Specialists in Montebello, Santa Fe Springs, East Los Angeles, and Wilshire."
+            "When he isn’t working, Dr. Cikra participates in continuing education. He also enjoys writing and contributing to medical publications. Dr. Cikra is a member of several professional organizations, including the American College of Foot & Ankle Surgeons and the American Academy of Podiatric Sports Medicine.",
+            "Dr. Cikra is available for patient care at the Montebello, Santa Fe Springs, and Wilshire locations."
         ],
         image: 'https://i.imgur.com/pWYLeGo.webp',
         imageMedium: 'https://i.imgur.com/ZfNEpMF.webp'
@@ -405,10 +394,10 @@ export const physicians = [
     {
         name: 'Matt Lee',
         bio: [
-            "Matt Lee, PA-C, is a certified physician assistant at Los Angeles Orthopedic Surgery Specialists, providing complete orthopedic care and pain management to people in East Los Angeles, Wilshire, Santa Fe Springs, Pico Rivera, Tarzana, Encino, Valencia, and Montebello, California.",
+            "Matt Lee, PA-C, is a certified physician associate providing complete orthopedic care to patients in Glendale, Los Angeles, and Tarzana.",
             "Matt began his professional education at the University of Pittsburgh in Pennsylvania. He completed one year of training there before transferring to the University of California, San Diego, in La Jolla, earning his bachelor’s degree in global health. While at UC San Diego, Matt also completed a minor in health care and social issues.",
             "After graduation, Matt enrolled at the Southern California University of Health Sciences in Whittier, earning his master’s degree in the physician assistant program. Matt excelled in his studies, receiving training in emergency medicine, orthopedic surgery, and pain management.",
-            "Before joining the team at Los Angeles Orthopedic Surgery Specialists, Matt worked as a patient care technician, phlebotomist, and patient services representative. He welcomes anyone suffering from musculoskeletal pain to Los Angeles Orthopedic Surgery Specialists in Glendale, East Los Angeles and Tarzana."
+            "Before joining the team at Los Angeles Orthopedic Surgery Specialists, Matt worked as a patient care technician, phlebotomist, and patient services representative. With a focus on patient well-being and a solid foundation in orthopedics and pain management, Matt Lee, PA-C, is dedicated to helping patients achieve optimal health and improved quality of life."
         ],
         image: 'https://i.imgur.com/aGc5DAe.webp',
         imageMedium: 'https://i.imgur.com/J7lJrSd.webp'
