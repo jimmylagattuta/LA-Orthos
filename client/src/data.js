@@ -401,6 +401,42 @@ export const physicians = [
         ],
         image: 'https://i.imgur.com/aGc5DAe.webp',
         imageMedium: 'https://i.imgur.com/J7lJrSd.webp'
+    },
+    {
+        name: 'Orlando Campose',
+        bio: [
+            "Orlando Campos is a highly qualified and compassionate Physician Associate with a strong educational background and diverse experiences in the field of medicine. He holds a Master of Science in Physician Assistant Studies from the prestigious Western University of Health Sciences. Prior to pursuing his advanced degree, Orlando earned a Bachelor of Science degree in Biology from California State University at Fresno.",
+            "Orlando is proficient in both English and Spanish, enhancing his ability to connect with a diverse range of patients and provide personalized care. He is also certified in Basic Life Support (BLS) and Advanced Cardiovascular Life Support (ACLS), underscoring his commitment to ensuring the highest standards of emergency medical care.",
+            "A dedicated member of the California Academy of Physician Assistants (CAPA) since 2022, Orlando actively engages in professional development and stays abreast of the latest advancements in healthcare. Additionally, his commitment to community service is evident through his volunteer work with local civic organizations, further demonstrating his dedication to making a positive impact beyond the clinical setting.",
+            "Orlando Campos is driven by a profound commitment to treating his patients with the utmost respect and providing comprehensive care to help them restore and maintain their health. His empathetic approach, combined with his extensive training and diverse experiences, positions him as a valuable asset in the healthcare community, dedicated to improving the lives of those he serves. Orlando is available for patient care at our Los Angeles and Santa Fe Springs locations."
+         ],
+        image: '',
+        imageMedium: ''
+    },
+    {
+        name: 'Damien Juncaj',
+        bio: [
+            "Damian Juncaj is a highly skilled and dedicated Physician Associate with a strong commitment to providing excellent patient care. Armed with a Bachelor of Science degree in Biology from the University of California, Riverside, and a Master of Physician Studies from California Baptist University, Damian brings a solid academic foundation to his medical practice.",
+            "During his training, Damian completed rigorous clinical rotations in various specialties, including behavioral medicine, emergency medicine, internal medicine, and general and orthopedic surgery. This diverse experience has equipped him with a comprehensive understanding of different medical disciplines, allowing him to approach patient care with a holistic perspective.",
+            "Beyond his academic achievements and clinical training, Damian is deeply involved in community service initiatives. He actively contributes to organizations such as Feeding America and Bread of Angels Soup Kitchen, reflecting his belief in the importance of addressing healthcare disparities and social determinants of health.",
+            "In addition to his academic and community achievements, Damian holds national certifications in Basic Life Support (BLS), Advanced Cardiovascular Life Support (ACLS), and Pediatric Advanced Life Support (PALS). These certifications underscore his commitment to maintaining the highest standards of emergency medical care.",
+            "As a member of the American Academy of Physician Assistants (AAPA) and the California Academy of Physician Assistants (CAPA), Damian remains actively engaged in the professional medical community. These affiliations provide him with ongoing opportunities for continuing education, networking, and staying abreast of the latest developments in the field.",
+            "What sets Damian apart is not only his academic and professional achievements but also his genuine compassion and empathy for patients. Damian is available for patient care at our Encino, Tarzana, Thousand Oaks, and Valencia locations."
+        ],
+        image: '',
+        imageMedium: ''
+    },
+    {
+        name: 'Elizabeth Lee',
+        bio: [
+            "Elizabeth Erie Lee is a highly skilled and compassionate Physician Associate with a distinguished educational background and a commitment to delivering exceptional patient care. She holds a Master of Physician Assistant Studies from the prestigious Massachusetts College of Pharmacy and Health Sciences and a Bachelor of Science degree with a major in Biochemistry and Cell Biology from the University of California San Diego.",
+            "Throughout her clinical training, Elizabeth completed rotations in various medical specialties, including Psychiatry, Family Medicine, Women's Health, Internal Medicine, Emergency Medicine, and Pediatrics. This diverse clinical experience has equipped her with a comprehensive understanding of different aspects of healthcare, allowing her to provide well-rounded and patient-centered care.",
+            "Elizabeth is a licensed Physician Assistant in the state of California, holding a Physician Assistant California State License. She has also obtained essential certifications, including Advanced Cardiovascular Life Support (ACLS) and Basic Life Support (BLS), underscoring her commitment to ensuring the highest standards of emergency medical care.",
+            "Fluent in both Korean and Japanese, Elizabeth brings cultural competency to her practice, facilitating effective communication and understanding with a diverse patient population. Her language skills enable her to connect with patients on a deeper level, ensuring that cultural nuances are taken into consideration in the delivery of care.",
+            "Elizabeth collaborates closely with Dr. Malafa, specializing in the treatment of hand patients. This partnership allows for a comprehensive and integrated approach to patient care, combining their expertise to address the unique needs of individuals with hand-related medical concerns. Elizabeth is available for patient care at our Los Angeles location."
+        ],
+        image: '',
+        imageMedium: ''
     }
 ];
 
