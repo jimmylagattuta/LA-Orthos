@@ -410,8 +410,8 @@ export const physicians = [
             "A dedicated member of the California Academy of Physician Assistants (CAPA) since 2022, Orlando actively engages in professional development and stays abreast of the latest advancements in healthcare. Additionally, his commitment to community service is evident through his volunteer work with local civic organizations, further demonstrating his dedication to making a positive impact beyond the clinical setting.",
             "Orlando Campos is driven by a profound commitment to treating his patients with the utmost respect and providing comprehensive care to help them restore and maintain their health. His empathetic approach, combined with his extensive training and diverse experiences, positions him as a valuable asset in the healthcare community, dedicated to improving the lives of those he serves. Orlando is available for patient care at our Los Angeles and Santa Fe Springs locations."
          ],
-        image: '',
-        imageMedium: ''
+        image: 'https://i.imgur.com/7FwA1eX.webp',
+        imageMedium: 'https://i.imgur.com/7FwA1eX.webp'
     },
     {
         name: 'Damien Juncaj',
@@ -423,8 +423,8 @@ export const physicians = [
             "As a member of the American Academy of Physician Assistants (AAPA) and the California Academy of Physician Assistants (CAPA), Damian remains actively engaged in the professional medical community. These affiliations provide him with ongoing opportunities for continuing education, networking, and staying abreast of the latest developments in the field.",
             "What sets Damian apart is not only his academic and professional achievements but also his genuine compassion and empathy for patients. Damian is available for patient care at our Encino, Tarzana, Thousand Oaks, and Valencia locations."
         ],
-        image: '',
-        imageMedium: ''
+        image: 'https://i.imgur.com/7FwA1eX.webp',
+        imageMedium: 'https://i.imgur.com/7FwA1eX.webp'
     },
     {
         name: 'Elizabeth Lee',
@@ -435,8 +435,8 @@ export const physicians = [
             "Fluent in both Korean and Japanese, Elizabeth brings cultural competency to her practice, facilitating effective communication and understanding with a diverse patient population. Her language skills enable her to connect with patients on a deeper level, ensuring that cultural nuances are taken into consideration in the delivery of care.",
             "Elizabeth collaborates closely with Dr. Malafa, specializing in the treatment of hand patients. This partnership allows for a comprehensive and integrated approach to patient care, combining their expertise to address the unique needs of individuals with hand-related medical concerns. Elizabeth is available for patient care at our Los Angeles location."
         ],
-        image: '',
-        imageMedium: ''
+        image: 'https://i.imgur.com/EUSrDSg.webp',
+        imageMedium: 'https://i.imgur.com/EUSrDSg.webp'
     }
 ];
 
