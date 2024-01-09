@@ -23,6 +23,12 @@ function App() {
             behavior: 'instant',
         });
     }, [pathname]);
+    let elementHeight = document.getElementById('myElement');
+    let elementWidth = document.getElementById('myElement');
+    
+    
+    console.log('height', window.innerHeight + 'px');
+    console.log('width', window.innerWidth + 'px');
     return (
         <>
             <Navbar />
