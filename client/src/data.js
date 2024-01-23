@@ -423,8 +423,8 @@ export const physicians = [
             "As a member of the American Academy of Physician Assistants (AAPA) and the California Academy of Physician Assistants (CAPA), Damian remains actively engaged in the professional medical community. These affiliations provide him with ongoing opportunities for continuing education, networking, and staying abreast of the latest developments in the field.",
             "What sets Damian apart is not only his academic and professional achievements but also his genuine compassion and empathy for patients. Damian is available for patient care at our Encino, Tarzana, Thousand Oaks, and Valencia locations."
         ],
-        image: 'https://i.imgur.com/7FwA1eX.webp',
-        imageMedium: 'https://i.imgur.com/7FwA1eX.webp'
+        image: 'https://i.imgur.com/Im9iI5P.webp',
+        imageMedium: 'https://i.imgur.com/lFcBxDu.webp'
     },
     {
         name: 'Elizabeth Lee',
@@ -435,8 +435,8 @@ export const physicians = [
             "Fluent in both Korean and Japanese, Elizabeth brings cultural competency to her practice, facilitating effective communication and understanding with a diverse patient population. Her language skills enable her to connect with patients on a deeper level, ensuring that cultural nuances are taken into consideration in the delivery of care.",
             "Elizabeth collaborates closely with Dr. Malafa, specializing in the treatment of hand patients. This partnership allows for a comprehensive and integrated approach to patient care, combining their expertise to address the unique needs of individuals with hand-related medical concerns. Elizabeth is available for patient care at our Los Angeles location."
         ],
-        image: 'https://i.imgur.com/EUSrDSg.webp',
-        imageMedium: 'https://i.imgur.com/EUSrDSg.webp'
+        image: 'https://i.imgur.com/TXWWAjU.jpg',
+        imageMedium: 'https://i.imgur.com/bNEZkLi.webp'
     }
 ];
 

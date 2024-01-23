@@ -7,8 +7,7 @@ const Physicians = () => {
             <div className='physician-header'>
                 <h1 className='main-page-title'>Meet Our Physicians</h1>
                 <p className='main-page-description'>
-                    Located in Chicago, Hometown, La Grange, and Greenwood
-                    Plaza.
+                    Located in East Los Angeles, Wilshire, Santa Fe Springs, Tarzana, Encino, Valencia, Montebello, and Glendale.
                 </p>
             </div>
             <div className='page-grid'>
