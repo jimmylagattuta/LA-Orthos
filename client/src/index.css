@@ -2359,7 +2359,11 @@ display: none;
     align-self: center;
 }
 
-
+@media (max-height: 600px) {
+    .about-description-right {
+        font-size: 0.8rem;
+    }
+}
 
 @media (min-width: 1025px) {
     .nav-link-container:hover > .submenu {
