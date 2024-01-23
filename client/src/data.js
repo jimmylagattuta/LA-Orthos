@@ -1124,7 +1124,7 @@ export const aboutTerms = [
     {
         subtitle: 'Notices',
         body: [
-            'Should you have any questions or concerns regarding our terms & conditions, please contact us by phone at or by mail at:',
+            'Should you have any questions or concerns regarding our terms & conditions, please contact us by phone at 323-264-7600 or fill out our Contact Us form:',
         ],
     },
 ];
