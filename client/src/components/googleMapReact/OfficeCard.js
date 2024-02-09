@@ -4,6 +4,8 @@ import GoogleMapReact from 'google-map-react';
 import { officesData } from '../../data';
 
 const InfoWindow = ({ place, handleInfoWindowClose }) => {
+    const [isHovered, setIsHovered] = useState(false);
+
     return (
         <div className='location-info-window'>
             <div className="location-card-info">
@@ -18,7 +20,6 @@ const InfoWindow = ({ place, handleInfoWindowClose }) => {
                         <span style={{ fontStyle: 'bold' }}>Fax:</span> {place.fax}
                     </div>
 
-                        
                     <h2 style={{ fontSize: 14, marginBottom: 3, marginTop: 3 }}>
                         Hours of Operation
                     </h2>
@@ -34,7 +35,7 @@ const InfoWindow = ({ place, handleInfoWindowClose }) => {
                             .join('+')}${place.addressTwo.split(' ').join('+')}`}>
                             <i
                                 style={{
-                                    fontSize: 25,
+                                    fontSize: 45,
                                     margin: '10px 20px 0 0',
                                 }}
                                 className='fas fa-map-marked-alt fa-1x'></i>
@@ -48,18 +49,37 @@ const InfoWindow = ({ place, handleInfoWindowClose }) => {
                             </a>
                         </div>
                     </div>
+
+                    {place.city === 'Glendale' && (
+                        <div className='parking-info-window-icons-cards'>
+
+                            <img
+                                src='https://i.imgur.com/5ujQPdE.webp'
+                                alt={place.city}
+                                className="animated-border-image"
+                            />
+                            {/* Download Icon with Text */}
+                            <a href='https://i.imgur.com/5ujQPdE.webp' download="GlendaleOfficeImage" className="download-icon">
+                                <i className="fas fa-download"></i>
+                                <span style={{ marginLeft: '8px' }}>Download</span>
+                            </a>
+                        </div>
+                    )}
+
+
                 </div>
                 <div className='info-window-image-container-cards'>
                     <img
                         src={place.image}
                         alt={place.city}
                         className='info-window-image-cards'
-                        />
+                    />
                 </div>
             </div>
         </div>
     );
 };
+
 
 const Marker = ({
     show,

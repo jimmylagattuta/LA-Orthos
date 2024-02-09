@@ -72,7 +72,7 @@ function ChatBox(props) {
     const url =
       process.env.NODE_ENV === 'production'
         ? 'https://www.laorthos.com/api/v1/pull_google_places_cache'
-        : 'http://localhost:3000/api/v1/pull_google_places_cache';
+        : 'http://localhost:3001/api/v1/pull_google_places_cache';
   
     // Include the CSRF token in the headers of your fetch request
     const headers = {
@@ -536,11 +536,11 @@ function ChatBox(props) {
                   {renderErrorAgree(errors.agree)}
                 </div>
               </div>
-              <ReCAPTCHA
+              {/* <ReCAPTCHA
                 className='g-recaptcha'
                 sitekey={process.env.REACT_APP_RECAPTCHA} // Use the environment variable
                 onChange={handleSubmitRecaptcha}
-              />
+              /> */}
               <div style={{ marginBottom: '0.3rem' }}>
                 {renderErrorRecaptcha(errors.recaptcha)}
               </div>
