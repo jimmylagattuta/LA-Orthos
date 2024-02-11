@@ -226,7 +226,7 @@ img {
     position: relative;
     margin-bottom: 100px;
     display: flex;
-    height: 75vh;
+    height: 600px;
     width: 90vw;
     border-radius: 1px;
     box-shadow: 0.5px 0.5px 40px rgba(0,0,0,.1);
@@ -238,6 +238,12 @@ img {
     flex: 1 1 auto;
     padding: 7px 10px;
     width: 160px;
+}
+
+#parking-glendale {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .map-float-menu-extra {
@@ -328,7 +334,7 @@ img {
     text-decoration: none;
     color: rgb(243, 74, 2); /* Initial color */
     background-color: #f8f8f8; /* Light grey background */
-    padding: 8px;
+    padding: 8px 8px 8px 8px;
     border-radius: 5px;
     border: 2px solid transparent; /* Transparent border */
     transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease;
@@ -418,17 +424,17 @@ img {
 
 
     
-    100% {
+    99% {
         
 
         --_i: 100%; /* Begin contracting */
-        background-position: 140% 0, 0 140%;
+        background-position: 110% 0, 0 110%;
         background-size: 100% var(--_i,var(--b)), var(--_i,var(--b)) 100%;
         --b: 1px;    /* The border thickness */
-        --color: sandybrown; /* the border color */
-        --border: 10px;   /* the border thickness*/
-        --offset: 20px;   /* control the offset*/
-        --gap: 5px;       /* the gap on hover */
+        --color: rgba(244, 164, 96, 20%); /* the border color */
+        --border: 6px;   /* the border thickness*/
+        --offset: 10px;   /* control the offset*/
+        --gap: 0px;       /* the gap on hover */
         
         --_c: var(--color) var(--border), #0000 0 calc(100% - var(--border)),var(--color) 0;
         --_o: calc(3*var(--offset));
@@ -447,14 +453,20 @@ img {
         cursor: pointer;
 
     }
+
+    100% {
+        --border: 0px;   /* the border thickness*/
+
+    }
     
   }
   .animated-border-image {
     --c: sandybrown; /* The border color */
     --b: 1px;    /* The border thickness */
     --g: 10px;     /* The gap */
+    max-width: 300px;
     width: 300px; /* Desired width */
-    max-height: 199px; /* Desired height */
+    max-height: 174px; /* Desired height */
     display: block;
     transform-origin: right center;
 
@@ -478,7 +490,7 @@ img {
 }
   
   .animated-border-image:hover {
-    transform: scale(2.6);
+    transform: scale(4.5);
     animation: unset;
   }
 
@@ -2553,6 +2565,7 @@ display: none;
     .pages-header {
         background-image: url(https://i.imgur.com/V3Vfsqi.webp);
     }
+
 }
 @media (max-width: 1360px) {
     .expertise-name {
@@ -2829,6 +2842,34 @@ display: none;
       }
 }
 @media (max-width: 850px) {
+    .map-container-cards {
+        position: relative;
+        margin-bottom: 100px;
+        display: flex;
+        height: 500px;
+        width: 90vw;
+        border-radius: 1px;
+        box-shadow: 0.5px 0.5px 40px rgba(0,0,0,.1);
+    
+        padding: 10px 20px;
+    }
+    .glendale-info-window-image-cards {
+        transition: transform 0.3s ease-in-out, border-color 0.3s ease;
+        transform-origin: right center;
+        border: 2px solid transparent; /* Transparent border to keep layout consistent */
+        max-height: 16vh;
+        max-width: 340px;
+      }
+      .animated-border-image {
+        /* display: none; */
+        max-width: 100px;
+        margin: 20px 0px 20px 20px;
+
+    }
+      .animated-border-image:hover {
+        transform: scale(5);
+        animation: unset;
+    }
     .expertise-name {
         font-size: 0.8rem;
     }
@@ -3030,10 +3071,32 @@ display: none;
 }
 
 @media (max-width: 576px) {
-    .animated-border-image {
-        display: none;
+    .map-container-cards {
+        position: relative;
+        margin-bottom: 100px;
+        display: flex;
+        height: 200px;
+        width: 90vw;
+        border-radius: 1px;
+        box-shadow: 0.5px 0.5px 40px rgba(0,0,0,.1);
+    
+        padding: 10px 20px;
     }
+    .animated-border-image {
+        /* display: none; */
+        max-width: 100px;
+        margin: 20px 0px 20px 20px;
 
+    }
+    .download-icon {
+        font-size: 0.8rem;
+        padding: 2px 0px 5px 0px;
+        margin-right: 8px;
+    }
+    .animated-border-image:hover {
+        transform: scale(3.8);
+        animation: unset;
+    }
 
 
 
@@ -3050,7 +3113,7 @@ display: none;
         width: 90vw;
         border-radius: 1px;
         box-shadow: 0.5px 0.5px 40px rgba(0,0,0,.1);
-        padding: 10px 20px;
+        padding: 10px;
     }
     .location-info-window {
         display: flex;
@@ -3066,7 +3129,7 @@ display: none;
         align-self: center;
     }
     .location-card-words {
-        padding: 15px;
+        padding: 0px;
     }
     #chat-form-lines-request-apt {
         width: 91%;

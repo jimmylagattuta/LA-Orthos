@@ -60,63 +60,86 @@ const FloatingOfficeInfo = ({
                     {useChevronLeft ? <i className="fas fa-chevron-left"></i> : <i className="fas fa-chevron-up"></i>}
                 </button>
             </div>
+
+
+
             {visibleOffices.map((place, index) => {
-                return (
-                    <div
-                        key={index + startIdx}
-                        className={
-                            place.show
-                                ? `map-float-info-container show-extra`
-                                : 'map-float-info-container'
-                        }
-                        onClick={() => {
-                            if (markerSelected === place.id) {
-                                resetSelection();
-                            } else {
-                                handleMarkerClick(place.id);
-                            }
-                        }}>
-                        <div
-                            className='map-float-mobile-background'
-                            style={{
-                                backgroundImage: `url('${place.image}')`,
-                            }}></div>
-                        <div className='map-float-menu-info'>
-                            <h2 className='map-float-title'>{place.city}</h2>
-                            <div className='map-float-info'>
-                                {place.addressOne}
-                            </div>
-                            <div className='map-float-info'>
-                                {place.addressTwo}
-                            </div>
-                            <div className='map-float-info'>{place.phone}</div>
-                            <div className='map-float-info'>
-                                Fax: {place.fax}
-                            </div>
-                        </div>
-                        <div className='map-float-menu-extra'>
-                            <h2 className='map-float-title'>
-                                Hours of Operation
-                            </h2>
-                            <div className='map-float-info'>
-                                Monday: 8 AM- 5PM
-                            </div>
-                            <div className='map-float-info'>
-                                Tuesday: 8 AM- 5PM
-                            </div>
-                            <div className='map-float-info'>
-                                {place.city === 'Montebello' ? 'Wednesday: Closed' : 'Wednesday: 8 AM- 5PM'}
-                            </div>
-                            <div className='map-float-info'>
-                                {place.city === 'Glendale' ? 'Thursday: Closed' : 'Thursday: 8 AM- 5PM'}
-                            </div>
-                            <div className='map-float-info'>
-                                Friday: 8 AM- 5PM
-                            </div>
-                        </div>
+    return (
+        <div
+            key={index + startIdx}
+            className={
+                place.show
+                    ? `map-float-info-container show-extra`
+                    : 'map-float-info-container'
+            }
+            onClick={() => {
+                if (markerSelected === place.id) {
+                    resetSelection();
+                } else {
+                    handleMarkerClick(place.id);
+                }
+            }}>
+            <div
+                className='map-float-mobile-background'
+                style={{
+                    backgroundImage: `url('${place.image}')`,
+                }}></div>
+            <div className='map-float-menu-info'>
+                <h2 className='map-float-title'>{place.city}</h2>
+                <div className='map-float-info'>
+                    {place.addressOne}
+                </div>
+                <div className='map-float-info'>
+                    {place.addressTwo}
+                </div>
+                <div className='map-float-info'>{place.phone}</div>
+                <div className='map-float-info'>
+                    Fax: {place.fax}
+                </div>
+            </div>
+            <div className='map-float-menu-extra'>
+                <h2 className='map-float-title'>
+                    Hours of Operation
+                </h2>
+                <div className='map-float-info'>
+                    Monday: 8 AM- 5PM
+                </div>
+                <div className='map-float-info'>
+                    Tuesday: 8 AM- 5PM
+                </div>
+                <div className='map-float-info'>
+                    {place.city === 'Montebello' ? 'Wednesday: Closed' : 'Wednesday: 8 AM- 5PM'}
+                </div>
+                <div className='map-float-info'>
+                    {place.city === 'Glendale' ? 'Thursday: Closed' : 'Thursday: 8 AM- 5PM'}
+                </div>
+                <div className='map-float-info'>
+                    Friday: 8 AM- 5PM
+                </div>
+            </div>
+            {place.city === 'Glendale' && (
+                <div className='map-float-menu-extra'>
+                    <div id="parking-glendale" className='parking-info-window-icons-cards'>
+                        <span style={{ color: 'rgba(243, 74, 2, 1)', fontSize: '1rem' }}>Building & Parking</span>
+                        <img
+                            src='https://i.imgur.com/5ujQPdE.webp'
+                            alt={place.city}
+                            className="animated-border-image"
+                            style={{ transformOrigin: 'left bottom', height: '100px', width: 'auto' }}
+                        />
+                        <a href='https://i.imgur.com/5ujQPdE.webp' download="GlendaleOfficeImage" className="download-icon">
+                            <i className="fas fa-download"></i>
+                            <span style={{ margin: '2px 8px 2px 8px', padding: '0px 0px 0px 0px', fontSize: '0.8rem' }}>Map</span>
+                        </a>                        
                     </div>
-                );
-            })}
+                </div>
+            )}
+        </div>
+    );
+})}
+
+
+
             <div className='pagination-arrows'>
                 <button
                     className='pagination-arrow'

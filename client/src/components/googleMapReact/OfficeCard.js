@@ -50,31 +50,36 @@ const InfoWindow = ({ place, handleInfoWindowClose }) => {
                         </div>
                     </div>
 
-                    {place.city === 'Glendale' && (
-                        <div className='parking-info-window-icons-cards'>
+              
 
+                </div>
+
+                    {place.city === 'Glendale' ? (
+                        // This block renders only for Glendale
+                        <div className='parking-info-window-icons-cards'>
+                            <span className="download-icon">Building & Parking</span>
                             <img
                                 src='https://i.imgur.com/5ujQPdE.webp'
                                 alt={place.city}
                                 className="animated-border-image"
                             />
-                            {/* Download Icon with Text */}
                             <a href='https://i.imgur.com/5ujQPdE.webp' download="GlendaleOfficeImage" className="download-icon">
+                                <span style={{ margin: '8px' }}>Map</span>
                                 <i className="fas fa-download"></i>
-                                <span style={{ marginLeft: '8px' }}>Download</span>
-                            </a>
+                            </a>                        
+                        </div>
+                    ) : (
+                        // This block renders for cities other than Glendale
+                        <div className='info-window-image-container-cards'>
+                            <img
+                                src={place.image}
+                                alt={place.city}
+                                className='info-window-image-cards'
+                            />
                         </div>
                     )}
 
 
-                </div>
-                <div className='info-window-image-container-cards'>
-                    <img
-                        src={place.image}
-                        alt={place.city}
-                        className='info-window-image-cards'
-                    />
-                </div>
             </div>
         </div>
     );
