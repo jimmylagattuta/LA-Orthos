@@ -344,7 +344,7 @@ const MapContainer = () => {
             // lng: originalCoordinates.lng - 0.021,
             // Fully in view
             // lng: originalCoordinates.lng - 0.012,
-            lng: originalCoordinates.lng - 0.0092
+            lng: originalCoordinates.lng - 0.0085
 
         };
         setCentered(adjustedCoordinates);
