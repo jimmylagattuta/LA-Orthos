@@ -484,7 +484,7 @@ img {
     
     /* Apply the animation */
     animation: borderAnimation 3s infinite; /* Keep the animation running infinitely */
-    animation-delay: 4s;
+    animation-delay: 2s;
   
 
 }
