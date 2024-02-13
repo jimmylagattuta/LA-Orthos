@@ -211,7 +211,7 @@ const InfoWindow = ({ place, handleInfoWindowClose, markerSelected }) => {
                     <i className='fas fa-mobile-alt fa-2x'></i>
                 </a>
                 {place.city === 'Glendale' && (
-                    <div className='map-float-menu-extra'>
+
                         <div id="parking-glendale" className='parking-info-window-icons-cards'>
                             <span style={{ color: 'rgba(243, 74, 2, 1)', fontSize: '1rem' }}>Building & Parking</span>
                             <img
@@ -225,7 +225,7 @@ const InfoWindow = ({ place, handleInfoWindowClose, markerSelected }) => {
                                 <span style={{ margin: '2px 8px 2px 8px', padding: '0px 0px 0px 0px', fontSize: '0.8rem' }}>Map</span>
                             </a>                        
                         </div>
-                    </div>
+
                 )}
             </div>
             <div className='info-window-image-container'>
