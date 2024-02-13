@@ -3138,7 +3138,7 @@ display: none;
         max-width: 50px;
         margin: 0px 0px 0px 0px;
     }
-    .animated-border-image {
+    .animated-border-image:hover {
         transform-origin: bottom;
         transform: scale(4);
 
