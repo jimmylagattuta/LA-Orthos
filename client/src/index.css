@@ -307,7 +307,9 @@ img {
     display: flex;
     flex-direction: row;
 }
-
+.map-phone-parking {
+    display: flex;
+}
 
 .info-window-image-cards {
     max-height: 45vh;

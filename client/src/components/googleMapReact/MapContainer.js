@@ -192,41 +192,43 @@ const InfoWindow = ({ place, handleInfoWindowClose, markerSelected }) => {
                 <div className='info-window-text'>8AM-5PM</div>
             </div>
             <div className='info-window-icons'>
-                <a
-                    className='info-window-icon'
-                    href={`https://maps.google.com/?q=${place.addressOne
-                        .split(' ')
-                        .join('+')}${place.addressTwo.split(' ').join('+')}`}>
-                    <i
-                        style={{
-                            fontSize: 25,
-                            margin: '10px 20px 0 0',
-                        }}
-                        className='fas fa-map-marked-alt fa-1x'></i>
-                </a>
-                <a
-                    className='info-window-icon'
-                    href={`tel:+1${place.phone.split('-').join('')}`}
-                    title='Phone clickable'>
-                    <i className='fas fa-mobile-alt fa-2x'></i>
-                </a>
-                {place.city === 'Glendale' && (
+                <div className="map-phone-parking">
+                    <a
+                        className='info-window-icon'
+                        href={`https://maps.google.com/?q=${place.addressOne
+                            .split(' ')
+                            .join('+')}${place.addressTwo.split(' ').join('+')}`}>
+                        <i
+                            style={{
+                                fontSize: 25,
+                                margin: '10px 20px 0 0',
+                            }}
+                            className='fas fa-map-marked-alt fa-1x'></i>
+                    </a>
+                    <a
+                        className='info-window-icon'
+                        href={`tel:+1${place.phone.split('-').join('')}`}
+                        title='Phone clickable'>
+                        <i className='fas fa-mobile-alt fa-2x'></i>
+                    </a>
+                    {place.city === 'Glendale' && (
 
-                        <div id="parking-glendale" className='parking-info-window-icons-cards'>
-                            <span style={{ color: 'rgba(243, 74, 2, 1)', fontSize: '1rem' }}>Building & Parking</span>
-                            <img
-                                src='https://i.imgur.com/5ujQPdE.webp'
-                                alt={place.city}
-                                className="animated-border-image"
-                                style={{ transformOrigin: 'left bottom', height: '100px', width: 'auto' }}
-                            />
-                            <a href='https://i.imgur.com/5ujQPdE.webp' download="GlendaleOfficeImage" className="download-icon">
-                                <i className="fas fa-download"></i>
-                                <span style={{ margin: '2px 8px 2px 8px', padding: '0px 0px 0px 0px', fontSize: '0.8rem' }}>Map</span>
-                            </a>                        
-                        </div>
+                            <div id="parking-glendale" className='parking-info-window-icons-cards'>
+                                <span style={{ color: 'rgba(243, 74, 2, 1)', fontSize: '1rem' }}>Building & Parking</span>
+                                <img
+                                    src='https://i.imgur.com/5ujQPdE.webp'
+                                    alt={place.city}
+                                    className="animated-border-image"
+                                    style={{ transformOrigin: 'left bottom', height: '100px', width: 'auto' }}
+                                />
+                                <a href='https://i.imgur.com/5ujQPdE.webp' download="GlendaleOfficeImage" className="download-icon">
+                                    <i className="fas fa-download"></i>
+                                    <span style={{ margin: '2px 8px 2px 8px', padding: '0px 0px 0px 0px', fontSize: '0.8rem' }}>Map</span>
+                                </a>                        
+                            </div>
 
-                )}
+                    )}
+                </div>
             </div>
             <div className='info-window-image-container'>
                 <img
