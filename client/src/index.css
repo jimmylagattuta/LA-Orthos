@@ -2604,6 +2604,7 @@ display: none;
     }
     #parking-glendale {
         font-size: 0.8rem;
+        width: 100px;
     }
     .home-locations {
         background-size: contain;
