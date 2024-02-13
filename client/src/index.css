@@ -2601,9 +2601,11 @@ display: none;
     } */
     #animated-border-image {
         height: 70px;
+        margin: 5px 0px 0px 5px;
+        transform-origin: left bottom;
     }
     #parking-glendale {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         width: 100px;
     }
     .home-locations {
