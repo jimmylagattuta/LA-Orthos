@@ -347,7 +347,7 @@ const MapContainer = () => {
             lng: originalCoordinates.lng - 0.002
 
         };
-        setCentered(adjustedCoordinates);
+        setCentered(coordinates);
         setZoomed(14);
         setMarkerSelected(+key);
     };
