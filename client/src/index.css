@@ -3140,17 +3140,14 @@ display: none;
     }
     .animated-border-image:hover {
         transform-origin: bottom;
-        transform: scale(6);
+        transform: scale(8);
+        animation: unset;
 
     }
     .download-icon {
         font-size: 0.6rem;
         margin: 0px -10px 0px -10px;
         margin-right: 0px;
-    }
-    .animated-border-image:hover {
-        transform: scale(4);
-        animation: unset;
     }
     #parking-glendale {
         padding: 0px 20px 0px 20px;

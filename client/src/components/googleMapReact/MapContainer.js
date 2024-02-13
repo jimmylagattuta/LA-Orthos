@@ -129,7 +129,7 @@ const FloatingOfficeInfo = ({
                         />
                         <a href='https://i.imgur.com/5ujQPdE.webp' download="GlendaleOfficeImage" className="download-icon">
                             <i className="fas fa-download"></i>
-                            <span style={{ margin: '2px 8px 2px 8px', padding: '0px 0px 0px 0px', fontSize: '0.8rem' }}>Map</span>
+                            <span style={{ margin: '2px 8px 2px 8px', padding: '0px 0px 0px 0px', fontSize: '0.8rem' }}>Download Map</span>
                         </a>                        
                     </div>
                 </div>
@@ -229,7 +229,7 @@ const InfoWindow = ({ place, handleInfoWindowClose, markerSelected }) => {
                                 />
                                 <a href='https://i.imgur.com/5ujQPdE.webp' download="GlendaleOfficeImage" className="download-icon">
                                     <i className="fas fa-download"></i>
-                                    <span style={{ margin: '2px 8px 2px 8px', padding: '0px 0px 0px 0px', fontSize: '0.6rem' }}>Click To Download Map</span>
+                                    <span style={{ margin: '2px 8px 2px 8px', padding: '0px 0px 0px 0px', fontSize: '0.6rem' }}>Download Map</span>
                                 </a>                        
                             </div>
 

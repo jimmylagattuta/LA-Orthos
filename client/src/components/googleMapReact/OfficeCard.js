@@ -54,14 +54,14 @@ const InfoWindow = ({ place, handleInfoWindowClose }) => {
                             {place.city === 'Glendale' && (
                                 // This block renders only for Glendale
                                 <div id='parking-glendale'>
-                                    <span className="download-icon">Building & Parking</span>
+                                    <span className="download-icon">Parking Zoom</span>
                                     <img
                                         src='https://i.imgur.com/5ujQPdE.webp'
                                         alt={place.city}
                                         className="animated-border-image"
                                     />
                                     <a href='https://i.imgur.com/5ujQPdE.webp' download="GlendaleOfficeImage" className="download-icon">
-                                        <span style={{ margin: '2px' }}>Map</span>
+                                        <span style={{ margin: '0px 5px 0px 0px' }}>Save Map</span>
                                         <i className="fas fa-download"></i>
                                     </a>                        
                                 </div>
