@@ -3111,7 +3111,7 @@ display: none;
         display: flex;
         justify-content: space-between;
         margin-top: 10px;
-        max-height: 50px;
+        max-height: 80px;
     }
     .map-container-cards {
         position: relative;
@@ -3124,15 +3124,10 @@ display: none;
     
         padding: 10px 20px;
     }
-    .animated-border-image {
-        /* display: none; */
-        max-width: 80px;
-        margin: 0px 0px 0px 0px;
 
-    }
     .animated-border-image {
         /* display: none; */
-        max-width: 80px;
+        max-width: 50px;
         margin: 0px 0px 0px 0px;
 
     }
