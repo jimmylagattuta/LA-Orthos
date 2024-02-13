@@ -125,7 +125,7 @@ const FloatingOfficeInfo = ({
                             src='https://i.imgur.com/5ujQPdE.webp'
                             alt={place.city}
                             className="animated-border-image"
-                            style={{ transformOrigin: 'left bottom', height: '100px', width: 'auto' }}
+                            style={{ height: '100px', width: 'auto' }}
                         />
                         <a href='https://i.imgur.com/5ujQPdE.webp' download="GlendaleOfficeImage" className="download-icon">
                             <i className="fas fa-download"></i>
