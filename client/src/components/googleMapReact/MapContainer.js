@@ -333,7 +333,7 @@ const MapContainer = () => {
         console.log('handleMarkerClicked');
         const coordinates = showInfo(key);
         setCentered(coordinates);
-        setZoomed(16);
+        setZoomed(15);
         setMarkerSelected(+key);
     };
 
