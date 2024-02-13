@@ -224,7 +224,7 @@ const InfoWindow = ({ place, handleInfoWindowClose, markerSelected }) => {
                                     src='https://i.imgur.com/5ujQPdE.webp'
                                     alt={place.city}
                                     className="animated-border-image"
-                                    style={{ transformOrigin: 'left bottom', height: '70px', width: 'auto', margin: "5px 0px 0px 5px" }}
+                                    style={{ transformOrigin: 'bottom', height: '70px', width: 'auto', margin: "5px 0px 0px 5px" }}
 
                                 />
                                 <a href='https://i.imgur.com/5ujQPdE.webp' download="GlendaleOfficeImage" className="download-icon">
