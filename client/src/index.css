@@ -3221,8 +3221,8 @@ display: none;
             --b: 1px;    /* The border thickness */
             --color: rgba(244, 164, 96, 20%); /* The border color */
             --border: 6px;   /* The border thickness */
-            --offset: 5px;   /* Reduced control of the offset for less dramatic effect */
-            --gap: 0px;       /* The gap on hover */
+            --offset: 18px;   /* Reduced control of the offset for less dramatic effect */
+            --gap: -8px;       /* The gap on hover */
             
             --_c: var(--color) var(--border), #0000 0 calc(100% - var(--border)),var(--color) 0;
             --_o: calc(2*var(--offset)); /* Smaller multiplier for less expansion */
