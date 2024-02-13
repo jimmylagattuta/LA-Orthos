@@ -3140,7 +3140,7 @@ display: none;
     }
     .animated-border-image:hover {
         transform-origin: bottom;
-        transform: scale(4);
+        transform: scale(6);
 
     }
     .download-icon {
