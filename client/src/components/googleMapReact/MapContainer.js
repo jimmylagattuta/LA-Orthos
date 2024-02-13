@@ -337,7 +337,7 @@ const MapContainer = () => {
             lat: originalCoordinates.lat,
             // Goes right way too far
             // lng: originalCoordinates.lng - 0.2,
-            lng: originalCoordinates.lng - 0.02,
+            lng: originalCoordinates.lng - 0.021,
         };
         setCentered(adjustedCoordinates);
         setZoomed(14);
