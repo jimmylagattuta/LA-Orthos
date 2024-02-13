@@ -2599,15 +2599,12 @@ display: none;
         padding: 7px 10px;
         width: 160px;
     } */
-    #animated-border-image {
+    /* .animated-border-image {
         height: 70px;
         margin: 5px 0px 0px 5px;
         transform-origin: left bottom;
-    }
-    #parking-glendale {
-        font-size: 0.7rem;
-        width: 100px;
-    }
+    } */
+
     .home-locations {
         background-size: contain;
     }

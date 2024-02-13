@@ -218,13 +218,14 @@ const InfoWindow = ({ place, handleInfoWindowClose, markerSelected }) => {
                     </div>
                     {place.city === 'Glendale' && (
 
-                            <div id="parking-glendale" className='parking-info-window-icons-cards'>
-                                <span style={{ color: 'rgba(243, 74, 2, 1)', fontSize: '0.7rem' }}>Building & Parking</span>
+                            <div id="parking-glendale" style={{ fontSize: '0.7rem', width: '100px' }} className='parking-info-window-icons-cards'>
+                                <span style={{ color: 'rgba(243, 74, 2, 1)', fontSize: '0.6rem' }}>Building & Parking</span>
                                 <img
                                     src='https://i.imgur.com/5ujQPdE.webp'
                                     alt={place.city}
                                     className="animated-border-image"
-                                    style={{ transformOrigin: 'left bottom', height: '100px', width: 'auto' }}
+                                    style={{ transformOrigin: 'left bottom', height: '70px', width: 'auto', margin: "5px 0px 0px 5px" }}
+
                                 />
                                 <a href='https://i.imgur.com/5ujQPdE.webp' download="GlendaleOfficeImage" className="download-icon">
                                     <i className="fas fa-download"></i>
