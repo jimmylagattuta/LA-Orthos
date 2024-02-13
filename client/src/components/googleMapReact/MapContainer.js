@@ -219,7 +219,7 @@ const InfoWindow = ({ place, handleInfoWindowClose, markerSelected }) => {
                     {place.city === 'Glendale' && (
 
                             <div id="parking-glendale-map" style={{ fontSize: '0.7rem', width: '100px' }} className='parking-info-window-icons-cards'>
-                                <span style={{ color: 'rgba(243, 74, 2, 1)', fontSize: '0.6rem' }}>Building & Parking</span>
+                                <span style={{ color: 'rgba(243, 74, 2, 1)', fontSize: '0.6rem' }}>Click For Parking</span>
                                 <img
                                     src='https://i.imgur.com/5ujQPdE.webp'
                                     alt={place.city}
@@ -229,7 +229,7 @@ const InfoWindow = ({ place, handleInfoWindowClose, markerSelected }) => {
                                 />
                                 <a href='https://i.imgur.com/5ujQPdE.webp' download="GlendaleOfficeImage" className="download-icon">
                                     <i className="fas fa-download"></i>
-                                    <span style={{ margin: '2px 8px 2px 8px', padding: '0px 0px 0px 0px', fontSize: '0.8rem' }}>Map</span>
+                                    <span style={{ margin: '2px 8px 2px 8px', padding: '0px 0px 0px 0px', fontSize: '0.6rem' }}>Click To Download Map</span>
                                 </a>                        
                             </div>
 
