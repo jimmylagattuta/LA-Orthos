@@ -193,7 +193,7 @@ const InfoWindow = ({ place, handleInfoWindowClose, markerSelected }) => {
             </div>
             <div className='info-window-icons'>
                 <div className="map-phone-parking">
-                    <div>
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                         <a
                             className='info-window-icon'
                             href={`https://maps.google.com/?q=${place.addressOne
@@ -202,14 +202,14 @@ const InfoWindow = ({ place, handleInfoWindowClose, markerSelected }) => {
                             <i
                                 style={{
                                     fontSize: 25,
-                                    margin: '10px 20px 0 0',
+                                    margin: '10px 0px 0px 0px',
                                 }}
                                 className='fas fa-map-marked-alt fa-1x'></i>
                         </a>
                         <a
                             className='info-window-icon'
                             style={{
-                                margin: '10px 0px 0px 20px'
+                                margin: '10px 0px 0px 0px'
                             }}
                             href={`tel:+1${place.phone.split('-').join('')}`}
                             title='Phone clickable'>
