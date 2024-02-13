@@ -2590,6 +2590,11 @@ display: none;
     }
 }
 @media (max-width: 1160px) {
+    .map-float-menu-extra {
+        display: true;
+        padding: 7px 10px;
+        width: 160px;
+    }
     .home-locations {
         background-size: contain;
     }
