@@ -3137,7 +3137,8 @@ display: none;
         /* display: none; */
         max-width: 50px;
         margin: 0px 0px 0px 0px;
-
+        transform-origin: bottom;
+        transform: scale(4);
     }
     .download-icon {
         font-size: 0.6rem;
