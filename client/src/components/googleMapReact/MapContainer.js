@@ -344,11 +344,11 @@ const MapContainer = () => {
             // lng: originalCoordinates.lng - 0.021,
             // Fully in view
             // lng: originalCoordinates.lng - 0.012,
-            lng: originalCoordinates.lng - 0.002
+            lng: originalCoordinates.lng - 0.0095
 
         };
-        setCentered(originalCoordinates);
-        setZoomed(14);
+        setCentered(adjustedCoordinates);
+        setZoomed(16);
         setMarkerSelected(+key);
     };
 
