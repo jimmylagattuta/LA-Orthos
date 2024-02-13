@@ -331,12 +331,17 @@ const MapContainer = () => {
 
     const handleMarkerClick = (key) => {
         console.log('handleMarkerClicked');
-        const coordinates = showInfo(key);
-        setCentered(coordinates);
+        const originalCoordinates = showInfo(key);
+        // Subtract 1 from the longitude to move the point 1 degree to the left
+        const adjustedCoordinates = {
+            lat: originalCoordinates.lat,
+            lng: originalCoordinates.lng - 1,
+        };
+        setCentered(adjustedCoordinates);
         setZoomed(14);
         setMarkerSelected(+key);
     };
-
+    
     useEffect(() => {
         const handleResize = () => {
             if (window.innerWidth <= 1160) {
