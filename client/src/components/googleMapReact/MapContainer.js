@@ -193,27 +193,29 @@ const InfoWindow = ({ place, handleInfoWindowClose, markerSelected }) => {
             </div>
             <div className='info-window-icons'>
                 <div className="map-phone-parking">
-                    <a
-                        className='info-window-icon'
-                        href={`https://maps.google.com/?q=${place.addressOne
-                            .split(' ')
-                            .join('+')}${place.addressTwo.split(' ').join('+')}`}>
-                        <i
+                    <div>
+                        <a
+                            className='info-window-icon'
+                            href={`https://maps.google.com/?q=${place.addressOne
+                                .split(' ')
+                                .join('+')}${place.addressTwo.split(' ').join('+')}`}>
+                            <i
+                                style={{
+                                    fontSize: 25,
+                                    margin: '10px 20px 0 0',
+                                }}
+                                className='fas fa-map-marked-alt fa-1x'></i>
+                        </a>
+                        <a
+                            className='info-window-icon'
                             style={{
-                                fontSize: 25,
-                                margin: '10px 20px 0 0',
+                                margin: '10px 0px 0px 20px'
                             }}
-                            className='fas fa-map-marked-alt fa-1x'></i>
-                    </a>
-                    <a
-                        className='info-window-icon'
-                        style={{
-                            margin: '10px 0px 0px 20px'
-                        }}
-                        href={`tel:+1${place.phone.split('-').join('')}`}
-                        title='Phone clickable'>
-                        <i className='fas fa-mobile-alt fa-2x'></i>
-                    </a>
+                            href={`tel:+1${place.phone.split('-').join('')}`}
+                            title='Phone clickable'>
+                            <i className='fas fa-mobile-alt fa-2x'></i>
+                        </a>
+                    </div>
                     {place.city === 'Glendale' && (
 
                             <div id="parking-glendale" className='parking-info-window-icons-cards'>
