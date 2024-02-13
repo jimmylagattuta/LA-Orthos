@@ -120,12 +120,12 @@ const FloatingOfficeInfo = ({
             {place.city === 'Glendale' && (
                 <div className='map-float-menu-extra'>
                     <div id="parking-glendale" className='parking-info-window-icons-cards'>
-                        <span style={{ color: 'rgba(243, 74, 2, 1)', fontSize: '1rem' }}>Building & Parking</span>
+                        <span style={{ color: 'rgba(243, 74, 2, 1)', fontSize: '1rem' }}>Parking Zoom</span>
                         <img
                             src='https://i.imgur.com/5ujQPdE.webp'
                             alt={place.city}
                             className="animated-border-image"
-                            style={{ height: '100px', width: 'auto' }}
+                            style={{ height: '100px', width: 'auto', transformOrigin: 'left' }}
                         />
                         <a href='https://i.imgur.com/5ujQPdE.webp' download="GlendaleOfficeImage" className="download-icon">
                             <i className="fas fa-download"></i>
