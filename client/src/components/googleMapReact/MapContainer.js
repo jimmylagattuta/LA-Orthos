@@ -207,6 +207,9 @@ const InfoWindow = ({ place, handleInfoWindowClose, markerSelected }) => {
                     </a>
                     <a
                         className='info-window-icon'
+                        style={{
+                            margin: '10px 0px 0px 20px'
+                        }}
                         href={`tel:+1${place.phone.split('-').join('')}`}
                         title='Phone clickable'>
                         <i className='fas fa-mobile-alt fa-2x'></i>
@@ -214,7 +217,7 @@ const InfoWindow = ({ place, handleInfoWindowClose, markerSelected }) => {
                     {place.city === 'Glendale' && (
 
                             <div id="parking-glendale" className='parking-info-window-icons-cards'>
-                                <span style={{ color: 'rgba(243, 74, 2, 1)', fontSize: '1rem' }}>Building & Parking</span>
+                                <span style={{ color: 'rgba(243, 74, 2, 1)', fontSize: '0.7rem' }}>Building & Parking</span>
                                 <img
                                     src='https://i.imgur.com/5ujQPdE.webp'
                                     alt={place.city}
