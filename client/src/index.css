@@ -2599,8 +2599,8 @@ display: none;
         padding: 7px 10px;
         width: 160px;
     } */
-    .map-phone-parking {
-
+    #animated-border-image {
+        height: 70px;
     }
     #parking-glendale {
         font-size: 0.8rem;
