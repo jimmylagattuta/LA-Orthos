@@ -3111,7 +3111,7 @@ display: none;
         display: flex;
         justify-content: space-between;
         margin-top: 10px;
-        max-height: 80px;
+        max-height: 50px;
     }
     .map-container-cards {
         position: relative;
