@@ -28,25 +28,44 @@ const InfoWindow = ({ place, handleInfoWindowClose }) => {
                     </div>
                     <div className='info-window-text-cards'>8AM-5PM</div>
                     <div className='info-window-icons-cards'>
-                        <a
-                            className='info-window-icon'
-                            href={`https://maps.google.com/?q=${place.addressOne
-                            .split(' ')
-                            .join('+')}${place.addressTwo.split(' ').join('+')}`}>
-                            <i
-                                style={{
-                                    fontSize: 45,
-                                    margin: '10px 20px 0 0',
-                                }}
-                                className='fas fa-map-marked-alt fa-1x'></i>
-                        </a>
-                        <div className='mobile-show'>
-                            <a
-                                className='info-window-icon'
-                                href={`tel:+1${place.phone.split('-').join('')}`}
-                                title='Phone clickable'>
-                                <i style={{ fontSize: 28, marginTop: '10px' }} className='fas fa-mobile-alt fa-2x'></i>
-                            </a>
+                        <div style={{ width: '100%', paddingLeft: '10px' }} className="map-phone-parking">
+                            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-end' }}>
+                                <a
+                                    className='info-window-icon'
+                                    href={`https://maps.google.com/?q=${place.addressOne
+                                    .split(' ')
+                                    .join('+')}${place.addressTwo.split(' ').join('+')}`}>
+                                    <i
+                                        style={{
+                                            fontSize: 45,
+                                            margin: '10px 20px 0 0',
+                                        }}
+                                        className='fas fa-map-marked-alt fa-1x'></i>
+                                </a>
+                                <div className='mobile-show'>
+                                    <a
+                                        className='info-window-icon'
+                                        href={`tel:+1${place.phone.split('-').join('')}`}
+                                        title='Phone clickable'>
+                                        <i style={{ fontSize: 28, marginTop: '10px' }} className='fas fa-mobile-alt fa-2x'></i>
+                                    </a>
+                                </div>
+                            </div>
+                            {place.city === 'Glendale' && (
+                                // This block renders only for Glendale
+                                <div id='parking-glendale'>
+                                    <span className="download-icon">Building & Parking</span>
+                                    <img
+                                        src='https://i.imgur.com/5ujQPdE.webp'
+                                        alt={place.city}
+                                        className="animated-border-image"
+                                    />
+                                    <a href='https://i.imgur.com/5ujQPdE.webp' download="GlendaleOfficeImage" className="download-icon">
+                                        <span style={{ margin: '2px' }}>Map</span>
+                                        <i className="fas fa-download"></i>
+                                    </a>                        
+                                </div>
+                            )}
                         </div>
                     </div>
 
@@ -54,22 +73,7 @@ const InfoWindow = ({ place, handleInfoWindowClose }) => {
 
                 </div>
 
-                    {place.city === 'Glendale' ? (
-                        // This block renders only for Glendale
-                        <div className='parking-info-window-icons-cards'>
-                            <span className="download-icon">Building & Parking</span>
-                            <img
-                                src='https://i.imgur.com/5ujQPdE.webp'
-                                alt={place.city}
-                                className="animated-border-image"
-                            />
-                            <a href='https://i.imgur.com/5ujQPdE.webp' download="GlendaleOfficeImage" className="download-icon">
-                                <span style={{ margin: '8px' }}>Map</span>
-                                <i className="fas fa-download"></i>
-                            </a>                        
-                        </div>
-                    ) : (
-                        // This block renders for cities other than Glendale
+
                         <div className='info-window-image-container-cards'>
                             <img
                                 src={place.image}
@@ -77,7 +81,6 @@ const InfoWindow = ({ place, handleInfoWindowClose }) => {
                                 className='info-window-image-cards'
                             />
                         </div>
-                    )}
 
 
             </div>

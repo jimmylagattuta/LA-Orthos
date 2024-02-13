@@ -317,6 +317,7 @@ img {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    max-height: 133px;
 }
 
 .info-window-image-cards {
@@ -344,12 +345,13 @@ img {
     text-decoration: none;
     color: rgb(243, 74, 2); /* Initial color */
     background-color: #f8f8f8; /* Light grey background */
-    padding: 8px 8px 8px 8px;
+    padding: 2px 2px 2px 2px;
     border-radius: 5px;
     border: 2px solid transparent; /* Transparent border */
     transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease;
     cursor: pointer;
-}
+    font-size: 1rem;
+    }
 
 /* Add this for text spacing */
 .download-icon span {
@@ -474,9 +476,9 @@ img {
     --c: sandybrown; /* The border color */
     --b: 1px;    /* The border thickness */
     --g: 10px;     /* The gap */
-    max-width: 300px;
+    max-width: 100px;
     width: 300px; /* Desired width */
-    max-height: 174px; /* Desired height */
+    max-height: 144px; /* Desired height */
     display: block;
     transform-origin: right center;
 
@@ -2889,9 +2891,17 @@ display: none;
       .animated-border-image {
         /* display: none; */
         max-width: 100px;
-        margin: 20px 0px 20px 20px;
 
     }
+    #parking-glendale {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+   .download-icon {
+        font-size: 0.8rem;
+   }
       .animated-border-image:hover {
         transform: scale(5);
         animation: unset;
@@ -3097,6 +3107,12 @@ display: none;
 }
 
 @media (max-width: 576px) {
+    .map-phone-parking {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        max-height: 80px;
+    }
     .map-container-cards {
         position: relative;
         margin-bottom: 100px;
@@ -3110,20 +3126,28 @@ display: none;
     }
     .animated-border-image {
         /* display: none; */
-        max-width: 100px;
-        margin: 20px 0px 20px 20px;
+        max-width: 80px;
+        margin: 0px 0px 0px 0px;
+
+    }
+    .animated-border-image {
+        /* display: none; */
+        max-width: 80px;
+        margin: 0px 0px 0px 0px;
 
     }
     .download-icon {
-        font-size: 0.8rem;
-        padding: 2px 0px 5px 0px;
-        margin-right: 8px;
+        font-size: 0.6rem;
+        margin: 0px -10px 0px -10px;
+        margin-right: 0px;
     }
     .animated-border-image:hover {
         transform: scale(3.8);
         animation: unset;
     }
-
+    #parking-glendale {
+        padding: 0px 20px 0px 20px;
+    }
 
 
 
@@ -3135,11 +3159,11 @@ display: none;
         margin-bottom: 100px;
         display: flex;
         flex-direction: column;
-        height: 90vh;
+        height: 95vh;
         width: 90vw;
         border-radius: 1px;
         box-shadow: 0.5px 0.5px 40px rgba(0,0,0,.1);
-        padding: 10px;
+        padding: 25px 5px;
     }
     .location-info-window {
         display: flex;
