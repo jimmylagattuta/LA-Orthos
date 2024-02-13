@@ -153,17 +153,7 @@ const FloatingOfficeInfo = ({
         </div>
     );
 };
-const [isScreenSmall, setIsScreenSmall] = useState(window.innerWidth <= 1160);
-useEffect(() => {
-    const handleResize = () => {
-      setIsScreenSmall(window.innerWidth <= 1160);
-    };
 
-    window.addEventListener('resize', handleResize);
-
-    // Clean up listener on component unmount
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
 const InfoWindow = ({ place, handleInfoWindowClose, markerSelected }) => {
     return (
         <div
@@ -226,20 +216,23 @@ const InfoWindow = ({ place, handleInfoWindowClose, markerSelected }) => {
                             <i className='fas fa-mobile-alt fa-2x'></i>
                         </a>
                     </div>
-                    {isScreenSmall && place.city === 'Glendale' && (
-                        <div id="parking-glendale" style={{ fontSize: '0.7rem', width: '100px' }} className='parking-info-window-icons-cards'>
-                        <span style={{ color: 'rgba(243, 74, 2, 1)', fontSize: '0.5rem' }}>Building & Parking</span>
-                        <img
-                            src='https://i.imgur.com/5ujQPdE.webp'
-                            alt={place.city}
-                            className="animated-border-image"
-                            style={{ transformOrigin: 'left bottom', height: '70px', width: 'auto', margin: "5px 0px 0px 5px" }}
-                        />
-                        <a href='https://i.imgur.com/5ujQPdE.webp' download="GlendaleOfficeImage" className="download-icon">
-                            <i className="fas fa-download"></i>
-                            <span style={{ margin: '2px 8px 2px 8px', padding: '0px 0px 0px 0px', fontSize: '0.8rem' }}>Map</span>
-                        </a>                        
-                        </div>
+                    {place.city === 'Glendale' && (
+
+                            <div id="parking-glendale-map" style={{ fontSize: '0.7rem', width: '100px' }} className='parking-info-window-icons-cards'>
+                                <span style={{ color: 'rgba(243, 74, 2, 1)', fontSize: '0.5rem' }}>Building & Parking</span>
+                                <img
+                                    src='https://i.imgur.com/5ujQPdE.webp'
+                                    alt={place.city}
+                                    className="animated-border-image"
+                                    style={{ transformOrigin: 'left bottom', height: '70px', width: 'auto', margin: "5px 0px 0px 5px" }}
+
+                                />
+                                <a href='https://i.imgur.com/5ujQPdE.webp' download="GlendaleOfficeImage" className="download-icon">
+                                    <i className="fas fa-download"></i>
+                                    <span style={{ margin: '2px 8px 2px 8px', padding: '0px 0px 0px 0px', fontSize: '0.8rem' }}>Map</span>
+                                </a>                        
+                            </div>
+
                     )}
                 </div>
             </div>

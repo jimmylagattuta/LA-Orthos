@@ -246,6 +246,12 @@ img {
     align-items: center;
 }
 
+#parking-glendale-map {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
 .map-float-menu-extra {
     display: none;
     padding: 7px 10px;
@@ -2604,6 +2610,11 @@ display: none;
         margin: 5px 0px 0px 5px;
         transform-origin: left bottom;
     } */
+    #parking-glendale {
+        display: flex;
+    }
+
+}
 
     .home-locations {
         background-size: contain;
