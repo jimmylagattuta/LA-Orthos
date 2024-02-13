@@ -3149,7 +3149,7 @@ display: none;
         margin-right: 0px;
     }
     .animated-border-image:hover {
-        transform: scale(3.8);
+        transform: scale(4);
         animation: unset;
     }
     #parking-glendale {
