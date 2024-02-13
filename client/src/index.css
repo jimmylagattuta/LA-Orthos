@@ -3126,6 +3126,14 @@ display: none;
     }
 
     .animated-border-image {
+
+
+        --c: sandybrown; /* The border color */
+        --b: 1px;    /* The border thickness */
+        --g: 3px;     /* The gap */
+        animation: borderAnimationZoomed 3s infinite; /* Keep the animation running infinitely */
+
+
         /* display: none; */
         max-width: 50px;
         margin: 0px 0px 0px 0px;
@@ -3143,7 +3151,103 @@ display: none;
     #parking-glendale {
         padding: 0px 20px 0px 20px;
     }
-
+    @keyframes borderAnimationZoomed {
+        0% {
+          --_i: 200%; /* Start with the borders expanded */
+          background-position: 200% 0, 0 200%;
+          background-size: 200% var(--_i,var(--b)), var(--_i,var(--b)) 200%;
+        }
+    
+        
+        
+    
+    
+    
+    
+    
+    
+        25% {
+            
+    
+            --_i: 100%; /* Begin contracting */
+            background-position: 140% 0, 0 140%;
+            background-size: 100% var(--_i,var(--b)), var(--_i,var(--b)) 100%;
+        
+        }
+        
+       
+        22% {
+            --b: 1px;    /* The border thickness */
+        }
+    
+        23% {
+            --b: 2px;    /* The border thickness */
+        }
+    
+        24% {
+            --b: 3px;    /* The border thickness */
+    
+        }
+        25% {
+            --b: 2px;    /* The border thickness */
+        }
+    
+        26% {
+            --b: 1px;    /* The border thickness */
+        }
+    
+     
+    
+        32% {
+            --b: 1px;    /* The border thickness */
+        }
+        29% {
+            --b: 2px;    /* The border thickness */
+    
+        }
+        30% {
+            --b: 2px;    /* The border thickness */
+    
+        }
+        31% {
+            --b: 1px;
+        }
+    
+    
+        99% {
+            --_i: 100%; /* Begin contracting, slightly modified if necessary */
+            background-position: 105% 0, 0 105%; /* Less extreme positioning */
+            background-size: 100% var(--_i,var(--b)), var(--_i,var(--b)) 100%; /* Adjusted if necessary */
+            --b: 1px;    /* The border thickness */
+            --color: rgba(244, 164, 96, 20%); /* The border color */
+            --border: 6px;   /* The border thickness */
+            --offset: 5px;   /* Reduced control of the offset for less dramatic effect */
+            --gap: 0px;       /* The gap on hover */
+            
+            --_c: var(--color) var(--border), #0000 0 calc(100% - var(--border)),var(--color) 0;
+            --_o: calc(2*var(--offset)); /* Smaller multiplier for less expansion */
+            padding: 
+              calc(var(--gap) + var(--border))
+              calc(var(--gap) + var(--border) + var(--offset))
+              calc(var(--gap) + var(--border) + var(--offset))
+              calc(var(--gap) + var(--border));
+            background: 
+              linear-gradient(var(--_c)) var(--_o) var(--_o), 
+              linear-gradient(90deg,var(--_c)) var(--_o) var(--_o);
+            background-size: calc(100% - var(--_o)) calc(100% - var(--_o)); /* Adjusted background size */
+            background-repeat: no-repeat;
+            filter: grayscale(.4);
+            transition: .5s;
+            cursor: pointer;
+        }
+        
+    
+        100% {
+            --border: 0px;   /* the border thickness*/
+    
+        }
+        
+      }
 
 
     .home-locations {
