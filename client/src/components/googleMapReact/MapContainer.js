@@ -219,7 +219,7 @@ const InfoWindow = ({ place, handleInfoWindowClose, markerSelected }) => {
                     {place.city === 'Glendale' && (
 
                             <div id="parking-glendale-map" style={{ fontSize: '0.7rem', width: '100px' }} className='parking-info-window-icons-cards'>
-                                <span style={{ color: 'rgba(243, 74, 2, 1)', fontSize: '0.5rem' }}>Building & Parking</span>
+                                <span style={{ color: 'rgba(243, 74, 2, 1)', fontSize: '0.6rem' }}>Building & Parking</span>
                                 <img
                                     src='https://i.imgur.com/5ujQPdE.webp'
                                     alt={place.city}
