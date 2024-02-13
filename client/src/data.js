@@ -2294,7 +2294,8 @@ export const officesData = [
         fax: '818-341-4836',
         image: 'https://i.imgur.com/OJ923L7.webp',
         coordinates: {
-            lat: 34.149694,
+            // plus 1 to 34.2
+            lat: 34.249694,
             lng: -118.231346,
         },
         show: false,
