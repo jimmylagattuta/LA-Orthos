@@ -335,7 +335,7 @@ const MapContainer = () => {
         // Subtract 1 from the longitude to move the point 1 degree to the left
         const adjustedCoordinates = {
             lat: originalCoordinates.lat,
-            
+
             // Goes right way too far
             // lng: originalCoordinates.lng - 0.2,
             // goes right still in view
@@ -343,7 +343,7 @@ const MapContainer = () => {
             // right too far but in view
             // lng: originalCoordinates.lng - 0.021,
 
-            lng: originalCoordinates.lng - 0.019,
+            lng: originalCoordinates.lng - 0.012,
 
         };
         setCentered(adjustedCoordinates);
