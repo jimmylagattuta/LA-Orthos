@@ -342,8 +342,9 @@ const MapContainer = () => {
             // lng: originalCoordinates.lng - 0.02,
             // right too far but in view
             // lng: originalCoordinates.lng - 0.021,
-
-            lng: originalCoordinates.lng - 0.012,
+            // Fully in view
+            // lng: originalCoordinates.lng - 0.012,
+            lng: originalCoordinates.lng - 0.009
 
         };
         setCentered(adjustedCoordinates);
