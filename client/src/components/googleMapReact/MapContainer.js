@@ -210,13 +210,6 @@ const InfoWindow = ({ place, handleInfoWindowClose, markerSelected }) => {
                     title='Phone clickable'>
                     <i className='fas fa-mobile-alt fa-2x'></i>
                 </a>
-            </div>
-            <div className='info-window-image-container'>
-                <img
-                    src={place.image}
-                    alt={place.city}
-                    className='info-window-image'
-                />
                 {place.city === 'Glendale' && (
                     <div className='map-float-menu-extra'>
                         <div id="parking-glendale" className='parking-info-window-icons-cards'>
@@ -234,6 +227,13 @@ const InfoWindow = ({ place, handleInfoWindowClose, markerSelected }) => {
                         </div>
                     </div>
                 )}
+            </div>
+            <div className='info-window-image-container'>
+                <img
+                    src={place.image}
+                    alt={place.city}
+                    className='info-window-image'
+                />
             </div>
         </div>
     );
