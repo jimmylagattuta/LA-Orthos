@@ -335,13 +335,13 @@ const MapContainer = () => {
         // Subtract 1 from the longitude to move the point 1 degree to the left
         const adjustedCoordinates = {
             lat: originalCoordinates.lat,
-            lng: originalCoordinates.lng - 1,
+            lng: originalCoordinates.lng - 0.2,
         };
         setCentered(adjustedCoordinates);
         setZoomed(14);
         setMarkerSelected(+key);
     };
-    
+
     useEffect(() => {
         const handleResize = () => {
             if (window.innerWidth <= 1160) {
