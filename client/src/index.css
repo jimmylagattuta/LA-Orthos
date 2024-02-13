@@ -309,6 +309,8 @@ img {
 }
 .map-phone-parking {
     display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
 }
 
 .info-window-image-cards {
@@ -2597,6 +2599,12 @@ display: none;
         padding: 7px 10px;
         width: 160px;
     } */
+    .map-phone-parking {
+
+    }
+    #parking-glendale {
+        font-size: 0.8rem;
+    }
     .home-locations {
         background-size: contain;
     }
