@@ -502,7 +502,7 @@ img {
 }
   
   .animated-border-image:hover {
-    transform: scale(4.5);
+    transform: scale(7);
     animation: unset;
   }
 
