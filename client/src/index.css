@@ -2577,6 +2577,22 @@ display: none;
     .pages-header {
         background-image: url(https://i.imgur.com/V3Vfsqi.webp);
     }
+    .submenu-multi-column {
+        min-width: 830px;
+        display: grid;
+
+        grid-gap: 0px; /* Adjust the gap between items */
+        padding: 10px;
+        grid-template-columns: repeat(4, minmax(0, 1fr)); /* Initial three columns */
+    
+    }
+    .sub-link {
+        min-height: -webkit-fill-available;
+        padding: 15px 5px 15px 5px;
+        font-size: 0.9rem;
+        align-items: center;
+        display: flex;
+    }
 
 }
 @media (max-width: 1360px) {
@@ -2584,11 +2600,12 @@ display: none;
         font-size: 0.8rem;
     }
     .sub-link {
-        padding: 15px 10px 15px 10px;
-        font-size: 0.9rem;
+        padding: 15px 10px 10px 10px;
+        font-size: 0.8rem;
     }
     .submenu-multi-column {
-        min-width: 820px;
+        min-width: 750px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }
 @media (max-width: 1295px) {
@@ -2724,9 +2741,12 @@ display: none;
         width: 100%;
         min-width: 0;
     }
-
+    .submenu-multi-column {
+        min-width: 100vw;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
     .sub-link {
-        padding: 20px 25px;
+        padding: 12px 15px;
         font-size: 0.75rem;
     }
 

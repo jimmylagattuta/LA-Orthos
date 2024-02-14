@@ -31,7 +31,7 @@ export const products = [
 
 export const physicians = [
     {
-        name: 'Whitty Lee',
+        name: 'Whitty Lee, PA-C',
         bio: [
             "Whitty Li, a dedicated Physician Associate, brings a wealth of experience in both primary and orthopedic care.",
             "Whitty earned her Master of Science from Stony Brook University's Physician Assistant Program, where her Master’s Project delved into the comparison of TAVR vs SAVR in intermediate-risk patients. Complementing her advanced degree, she holds a Bachelor of Science in Biological Sciences from the University of California, Irvine.",
@@ -43,7 +43,7 @@ export const physicians = [
 
     },
     {
-        name: 'Raj Desai',
+        name: 'Raj Desai, M.D.',
         bio: [
             "Raj Desai, MD, FAAPMR, is a double-board certified physician in physical medicine and rehabilitation and pain medicine.",
             "After his undergraduate studies at Pennsylvania State University, Dr. Desai earned a medical degree at the American University of Antigua. He served an internship in internal medicine at Icahn School of Medicine at Mount Sinai in Queens, New York.",
@@ -55,7 +55,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/DwvXv9d.webp'
     },
     {
-        name: 'Kevin Pelton',
+        name: 'Kevin Pelton, M.D.',
         bio: [
             "Kevin Pelton, MD, is a distinguished orthopedic professional, celebrated as the visionary founder, President, and Chief Medical Officer of Los Angeles Orthopedic Surgery Specialists and Advanced Orthopedics.",
             "As a board-certified orthopedic surgeon, his clinical practices focus on treating injuries in patients from all walks of life. A native of Texas, Dr. Pelton graduated from Texas A&M University in College Station, with a degree in biomedical science. After earning his medical degree from the University of Texas Southwestern Medical School in Dallas, Dr. Pelton completed a residency in orthopedic surgery and a fellowship in orthopedic trauma at the University of Southern California, in Los Angeles.  He is a member of the California Orthopedic Association and the American Academy of Orthopedic Surgeons.",
@@ -67,7 +67,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/I3MNNjV.webp'
     },
     {
-        name: 'Natalie Hammond',
+        name: 'Natalie Hammond, PA',
         bio: [
             "Natalie Hammond, RCP, PA-C, provides extraordinary patient care with a deep knowledge of family and internal medicine.",
             "She started her career journey by earning an Associate of Arts in Psychology from Moorpark College, followed by an Associate of Science in Health Science from Excelsior University in Albany, New York.",
@@ -78,7 +78,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/Wy9nRnS.webp'
     },
     {
-        name: 'Matthew D. Longacre',
+        name: 'Matthew D. Longacre, M.D.',
         bio: [
             "Matthew D. Longacre, MD, is a board-certified physician at Los Angeles Orthopedic Surgery Specialists. With offices in East Los Angeles, Wilshire, Santa Fe Springs, Pico Rivera, Tarzana, Encino, Valencia, and Montebello, California, Dr. Longacre and his colleagues at the practice serve patients throughout Los Angeles County.",
             "Dr. Longacre specializes in orthopedic surgery and sports medicine. Originally from Southern California, Dr. Longacre earned his undergraduate degree in biomedical sciences at the University of California, Riverside. He continued on to earn his medical degree from the David Geffen School of Medicine at the University of California, Los Angeles, in 2008. For his residency in orthopedic surgery, Dr. Longacre trained at the University of Southern California Medical Center. Dr. Longacre is a member of the California Orthopaedic Association and the American Academy of Orthopaedic Surgeons.",
@@ -89,7 +89,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/8U6aM1l.webp'
     },
     {
-        name: 'Michael Perrone',
+        name: 'Michael Perrone, M.D.',
         bio: [
             "Michael Perrone, MD, is a board-certified dual fellowship trained orthopedic surgeon.",
             "Originally from New York, Dr. Perrone completed his undergraduate studies at the University of Florida in Gainesville, where he earned his bachelor’s in health science and master’s in public health with a concentration on public health policy and administration. He then moved on to the Morsani College of Medicine at the University of South Florida in Tampa. He graduated in 2014 and earned election into the prestigious Alpha Omega Alpha Honor Society. Dr. Perrone completed his orthopedic surgery residency at the University of Chicago in Illinois in 2019.",
@@ -101,7 +101,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/ePi5e2T.webp'
     },
     {
-        name: 'Nora Nazarian',
+        name: 'Nora Nazarian, PA-C',
         bio: [
             "Nora Nazarian, PA-C, is a certified physician associate who takes pride in fostering enduring connections with her patients, prioritizing comprehensive and compassionate care.",
             "A Southern California native, Nora earned her Bachelor of Arts in psychology, with a minor in child development, at the University of California, Los Angeles. She earned her Master of Physician Assistant Practice (MPAP) in 2017 from Keck School of Medicine of the University of Southern California. ",
@@ -112,7 +112,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/tXDWgIq.webp'
     },
     {
-        name: 'David Barba',
+        name: 'David Barba, M.D.',
         bio: [
             "David Barba, MD, is a bilingual, board-certified orthopedic surgeon.  He is trained to treat and diagnose all injury forms to the musculoskeletal system, including the joints, muscles, bones, tendons, and ligaments.",
             "Dr. Barba earned his undergraduate degree at San Francisco State University, majoring in physiology. After completing medical school at the University of California, Los Angeles, Dr. Barba moved to the Indiana University School of Medicine in Indianapolis to complete his orthopedic residency. He subsequently participated in a sports medicine fellowship with the Orthopedic Clinic Association in Phoenix, Arizona.",
@@ -123,7 +123,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/cSmM1CQ.webp'
     },
     {
-        name: 'Erik Dworsky',
+        name: 'Erik Dworsky, M.D.',
         bio: [
             "Erik Dworsky, MD, is a skilled orthopedic surgeon and total joint specialist with extensive training in all musculoskeletal complaints and advanced training in hip and knee replacement.",
             "Originally from Southern California, Dr. Dworsky earned his undergraduate degree at the University of California, Berkeley, and his medical degree from the Case Western Reserve University School of Medicine in Cleveland, Ohio. He completed his orthopedic surgery residency at the University of California, Los Angeles, and completed an arthroplasty fellowship at the University of California, San Diego.",
@@ -136,7 +136,7 @@ export const physicians = [
 
     },
     {
-        name: 'Michelle Sugi',
+        name: 'Michelle Sugi, M.D.',
         bio: [
             "Michelle Sugi, MD, is a board-certified, fellowship-trained orthopedic surgeon specializing in general pediatric orthopedic surgery and sports medicine.",
             "A Southern California native, Dr. Sugi earned her undergraduate degree in biomedical engineering from the esteemed Johns Hopkins University in Baltimore, Maryland. She then entered medical school at the David Geffen School of Medicine at the University of California, Los Angeles. For her residency, Dr. Sugi moved to the University of Southern California LAC+USC Medical Center. She also completed dual fellowships at UCLA Medical Center and Stanford University.",
@@ -148,7 +148,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/PhspEbm.webp'
     },
     {
-        name: 'Danny Wang',
+        name: 'Danny Wang, D.P.M.',
         bio: [
             "Danny Wang, DPM, graduated from the Western University College of Podiatric Medicine in Pomona, California, in 2018. Dr. Wang is particularly skilled in diagnosing and treating foot diseases and deformities with precision and expertise.",
             "He embodies the essence of a skilled podiatrist, fueled by a robust commitment to guide his patients towards complete recovery. His proficiency is matched only by his genuine respect and compassionate care, creating a healing environment where patients receive both expertise and kindness in their journey to wellness."
@@ -157,7 +157,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/ErYkO8z.webp'
     },
     {
-        name: 'Menyoli Malafa',
+        name: 'Menyoli Malafa, M.D.',
         bio: [
             "Menyoli Michael Malafa, MD, stands as an exceptional specialist in the realm of plastic and reconstructive surgery.",
             "His journey towards excellence began with an undergraduate degree in biology at Stanford University in California, laying the foundation for his commitment to precision, innovation, and compassionate care in the field of plastic and reconstructive medicine. He graduated medical school with honors from the University of South Florida’s College of Medicine in 2011. From there, he moved on to the University of Texas Southwestern in Dallas, where he completed his hand surgery residency. Finding hand surgery particularly interesting, Dr. Malafa moved to California to complete a fellowship in hand surgery at the University of California, Los Angeles.",
@@ -168,7 +168,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/AyNLZUh.webp'
     },
     {
-        name: 'Yixi Lu',
+        name: 'Yixi Lu, D.P.M.',
         bio: [
             "Yixi Lu, DPM, is a podiatric surgical specialist who offers unparalleled care for his patients.",
             "He began his studies at Ohio State University in Columbus, Ohio, earning a Bachelor of Science in microbiology. He then earned his Doctor of Podiatric Medicine from Western University of Health Sciences in Pomona, California.",
@@ -180,7 +180,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/yTGJC5j.webp'
     },
     {
-        name: 'Yung Cho',
+        name: 'Yung Cho, M.D.',
         bio: [
             "Yung R. Cho, MD, brings a wealth of experience to his role at Los Angeles Orthopedic Surgery Specialists.",
             "The practice serves patients in and around Los Angeles, with offices in East Los Angeles, Wilshire, Santa Fe Springs, Pico Rivera, Tarzana, Encino, Valencia, and Montebello, California, many of whom are pleased to call Dr. Cho their orthopedic specialist.",
@@ -193,7 +193,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/MuRn5rI.webp'
     },
     {
-        name: 'Brent Pickrell',
+        name: 'Brent Pickrell, M.D.',
         bio: [
             "Brent Pickrell, MD, is a fellowship-trained hand surgeon at Los Angeles Orthopedic Surgery Specialists. He completed his undergraduate studies at the University of Texas at Austin, earning a degree in finance from the McCombs School of Business. He then matriculated to Baylor College of Medicine in Houston, Texas, on a 4-year full-tuition scholarship and graduated with honors. Dr. Pickrell completed his 6-year integrated plastic surgery residency at Harvard Medical School. Dr. Pickrell subsequently completed an orthopedic hand fellowship at Harvard Medical School, focusing on the complex reconstruction of the hand, wrist, and forearm.",
             "Dr. Pickrell received numerous accolades during his surgical training, including the Harvard Plastic Surgery Resident Teacher of the Year Award. He was a 4-time recipient of the Harvard Academic Achievement Award for earning the highest national in-service exam score. He has over 30 peer-reviewed publications and book chapters and remains involved in select research endeavors.",
@@ -204,7 +204,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/p7z3Wfe.webp'
     },
     {
-        name: 'Micheal Marcus',
+        name: 'Micheal Marcus, D.P.M.',
         bio: [
             "Michael Marcus, DPM, is a highly accomplished podiatrist specializing in diagnosing and treating conditions related to the feet and ankles.",
             "Dr. Marcus began his studies at the University of Maryland in College Park, earning a degree in zoology. He went on to earn his medical degree from Temple University School of Podiatric Medicine, formerly known as the Pennsylvania College of Podiatric Medicine, in Philadelphia, Pennsylvania.",
@@ -216,7 +216,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/Q6A2PNI.webp'
     },
     {
-        name: 'Sevag Bastian',
+        name: 'Sevag Bastian, M.D.',
         bio: [
             "Sevag Bastian, MD, is a board-certified orthopedic surgeon serving the Glendale community with a patient-first mindset.",
             "After earning his Bachelor of Science from the University of California, Los Angeles, Dr. Bastian attended Chicago Medical School in Illinois. He then completed his residency in orthopedic surgery at Rutgers New Jersey Medical School. During his time there, Dr. Bastian received recognition for his dedication with the Resident Teaching Award. He then returned to California to complete a fellowship at the Cedar-Sinai Kerlan-Jobe Institute in shoulder and elbow reconstruction.",
@@ -228,7 +228,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/Q6XMZva.webp'
     },
     {
-        name: 'Siamak Yasmeh',
+        name: 'Siamak Yasmeh, M.D.',
         bio: [
             "Siamak Yasmeh, MD, is a fellowship-trained orthopedic and spine surgeon providing complete orthopedic care and interventional pain management.",
             "Dr. Yasmeh attended the University of California, Los Angeles earning his bachelor’s degree and graduating summa cum laude. He pursued a career in health care, obtaining his Doctor of Medicine degree from the Keck School of Medicine at the University of Southern California (USC). Before entering private practice, Dr. Yasmeh completed an orthopedic surgery residency with the Los Angeles County Medical Center and a spine surgery fellowship at the University of Wisconsin–Madison.",
@@ -239,7 +239,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/CVbBua1.webp'
     },
     {
-        name: 'Jason Kaushik',
+        name: 'Jason Kaushik, M.D.',
         bio: [
             "Jason Kaushik, MD, is board-certified in physical medicine and rehabilitation.",
             "Dr. Kaushik began his career at George Washington University in Washington, DC, earning his bachelor’s degree in psychology. After graduation, he stayed at George Washington, enrolling in its School of Medicine and Health Sciences and obtaining his Doctor of Medicine degree.",
@@ -251,7 +251,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/Iw8gBbd.webp'
     },
     {
-        name: 'Daniel Acevedo',
+        name: 'Daniel Acevedo, M.D.',
         bio: [
             "Daniel Acevedo, MD, is a board-certified orthopedic surgeon with a subspecialty focus on shoulder and elbow reconstruction.",
             "Dr. Acevedo grew up in Southern California and attended UC Irvine for his undergraduate and medical school training. In medical school, he was elected to the Alpha Omega Alpha Honor Medical Society and earned numerous awards for scholastic and clinical achievement. After medical school, he pursued training in orthopedic surgery at LAC+USC Medical Center, where he was elected administrative chief resident. He also received multiple awards, including the Herman Epstein Award, which is awarded to the best senior resident in the class. He then traveled to Philadelphia to complete a shoulder and elbow surgery fellowship at the prestigious Rothman Institute at Thomas Jefferson University Hospital.",
@@ -264,7 +264,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/1ctDHWW.webp'
     },
     {
-        name: 'Annie Yang',
+        name: 'Annie Yang, PA-C',
         bio: [
             "As a physician associate, Annie Yang, PA-C, delivers top-quality care to residents in Greater Los Angeles.",
             "Education is a central focus for Annie. She earned a Bachelor of Science in health promotion and disease prevention at the University of Southern California Keck School of Medicine in Los Angeles. She remained at USC to earn her Master of Science in global medicine as well as a Master of Physician Assistant Practice.",
@@ -275,7 +275,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/465THjb.webp'
     },
     {
-        name: 'Bryan Sandoval',
+        name: 'Bryan Sandoval, PA-C',
         bio: [
             "Bryan Sandoval, PA-C, is a deeply compassionate physician associate.",
             "Bryan completed a Bachelor of Science in kinesiology at the University of Nevada, Las Vegas. He then earned a Masters in Physician Assistant Studies at Western University of Health Sciences in Pomona, California. Bryan has a diverse professional background, particularly in the field of healthcare, with a specific emphasis on dermatology and orthopedic sports medicine. ",
@@ -286,7 +286,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/X6kduLV.webp'
     },
     {
-        name: 'David Collazo',
+        name: 'David Collazo, DC',
         bio: [
             "David Collazo, DC, leverages his extensive chiropractic training and experience to improve the quality of life of those in his care.",
             "Dr. Collazo began his studies at Cerritos College in Norwalk, California, where he earned an associate degree in physical education. He went on to study at California State University Long Beach before entering Southern California University of Health Sciences, Los Angeles College of Chiropractic, where he completed his Doctor of Chiropractic.",
@@ -298,7 +298,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/U74jqAd.webp'
     },
     {
-        name: 'David Moriel',
+        name: 'David Moriel, N.P.',
         bio: [
             "David Moriel, NP, a native Angeleno, is a bilingual, nationally-accredited, and board-certified nurse practitioner.",
             "After completing his undergraduate studies at the Interamerican University of Puerto Rico with a degree in nursing, he completed his Master of Science in Nursing from Walden University in Minneapolis, Minnesota.",
@@ -311,7 +311,7 @@ export const physicians = [
 
     },
     {
-        name: 'Daniel Rivas-Tejeda',
+        name: 'Daniel Rivas-Tejeda, PA',
         bio: [
             "Daniel Rivas-Tejada, PA, cares about his patients and provides them with decades of personalized, high-quality health care.",
             "Daniel works with the team at Los Angeles Orthopedic Surgery Specialists to provide that care in Greater Los Angeles, with offices in East Los Angeles, Wilshire, Santa Fe Springs, Pico Rivera, Tarzana, Encino, Valencia, and Montebello, California.",
@@ -323,7 +323,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/qkCtR1f.webp'
     },
     {
-        name: 'Felipe Nunez',
+        name: 'Felipe Nunez, PA-C',
         bio: [
             "Felipe Nuñez, PA-C, is a physician associate with a significant and long-standing role within the group. Serving as the Vice President of Medical and being an integral member of the leadership team, Felipe plays a crucial role in decision-making, strategy development, and overall management of medical affairs within the group.",
             "Felipe started his studies at Cal Poly Pomona in California, earning a Bachelor of Science in sports medicine. He then completed a Master of Science in physician assistant studies at the Western University of Health Sciences, Pomona.",
@@ -334,7 +334,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/RPVdhmY.webp'
     },
     {
-        name: 'John Giannini',
+        name: 'John Giannini, PA-C',
         bio: [
             "John R. Giannini, PA-C, is a seasoned professional who brings more than 40 years of applied practice as a physician associate.",
             "John found his passion for quality health care right after high school, first earning his emergency medical technician certification from Loma Linda University in Loma Linda, California, and then paramedic certification a year later. He completed an Associate of Applied Science degree from Cerritos College and then completed his physician assistant credentials from the LAC+USC Medical Center in Los Angeles.",
@@ -344,7 +344,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/cWkcDle.webp'
     },
     {
-        name: 'Jonathan Naick',
+        name: 'Jonathan Naick, PA-C',
         bio: [
             "Jonathan Naick, MSPAS, MPH, MEd, PA-C, ATC, CPH, began his journey in health care by earning a Bachelor of Science in athletic training from the University of Nevada, Las Vegas followed by a Master of Education in advanced athletic training and sports medicine from the University of Virginia in Charlottesville, Virginia.",
             "Jonathan completed a Master of Science in physician assistant studies in 2017 from Touro University in Vallejo and is currently pursuing a doctorate in medical science degree at the University of Lynchburg in Virginia.",
@@ -355,7 +355,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/VU3k4Ta.webp'
     },
     {
-        name: 'Michelle Chang',
+        name: 'Michelle Chang, PA-C',
         bio: [
             "Michelle Chang, PA-C, prides herself on providing top quality care for her patients. Michelle started her educational journey at the University of California, San Diego, where she graduated summa cum laude with a Bachelor of Arts in human development.",
             "She then pursued a post-baccalaureate pre-medical program at the University of Southern California in Los Angeles. She obtained a Master of Public Administration and Policy degree at USC’s Keck School of Medicine.",
@@ -366,7 +366,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/hXrEpk8.webp'
     },
     {
-        name: 'Mark Lee',
+        name: 'Mark Lee, PA-C',
         bio: [
             "Mark Lee, PA-C, expands the limits of routine health services to assure a patient-wellness approach.",
             "Mark’s path as a physician assistant started with a Bachelor of Science and physician assistant certificate of completion from Charles Drew University of Medicine and Science in Los Angeles.",
@@ -379,7 +379,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/EA9r6UD.webp'
     },
     {
-        name: 'Matt Cikra',
+        name: 'Matt Cikra, D.P.M.',
         bio: [
             "Matt Cikra, DPM, AACFAS, is a fellowship-trained podiatrist.",
             "Dr. Cikra began his career at California State University, Long Beach, earning his bachelor’s degree in psychology. After graduating, he decided to pursue a medical career and enrolled at the Western University of Health Sciences in Pomona, California, earning his Doctor of Podiatric Medicine.",
@@ -392,7 +392,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/ZfNEpMF.webp'
     },
     {
-        name: 'Matt Lee',
+        name: 'Matt Lee, PA-C',
         bio: [
             "Matt Lee, PA-C, is a certified physician associate providing complete orthopedic care to patients in Glendale, Los Angeles, and Tarzana.",
             "Matt began his professional education at the University of Pittsburgh in Pennsylvania. He completed one year of training there before transferring to the University of California, San Diego, in La Jolla, earning his bachelor’s degree in global health. While at UC San Diego, Matt also completed a minor in health care and social issues.",
@@ -403,7 +403,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/J7lJrSd.webp'
     },
     {
-        name: 'Orlando Campose',
+        name: 'Orlando Campos, PA-C',
         bio: [
             "Orlando Campos is a highly qualified and compassionate Physician Associate with a strong educational background and diverse experiences in the field of medicine. He holds a Master of Science in Physician Assistant Studies from the prestigious Western University of Health Sciences. Prior to pursuing his advanced degree, Orlando earned a Bachelor of Science degree in Biology from California State University at Fresno.",
             "Orlando is proficient in both English and Spanish, enhancing his ability to connect with a diverse range of patients and provide personalized care. He is also certified in Basic Life Support (BLS) and Advanced Cardiovascular Life Support (ACLS), underscoring his commitment to ensuring the highest standards of emergency medical care.",
@@ -414,7 +414,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/7FwA1eX.webp'
     },
     {
-        name: 'Damien Juncaj',
+        name: 'Damien Juncaj, PA-C',
         bio: [
             "Damian Juncaj is a highly skilled and dedicated Physician Associate with a strong commitment to providing excellent patient care. Armed with a Bachelor of Science degree in Biology from the University of California, Riverside, and a Master of Physician Studies from California Baptist University, Damian brings a solid academic foundation to his medical practice.",
             "During his training, Damian completed rigorous clinical rotations in various specialties, including behavioral medicine, emergency medicine, internal medicine, and general and orthopedic surgery. This diverse experience has equipped him with a comprehensive understanding of different medical disciplines, allowing him to approach patient care with a holistic perspective.",
@@ -427,7 +427,7 @@ export const physicians = [
         imageMedium: 'https://i.imgur.com/lFcBxDu.webp'
     },
     {
-        name: 'Elizabeth Lee',
+        name: 'Elizabeth Lee, PA-C',
         bio: [
             "Elizabeth Erie Lee is a highly skilled and compassionate Physician Associate with a distinguished educational background and a commitment to delivering exceptional patient care. She holds a Master of Physician Assistant Studies from the prestigious Massachusetts College of Pharmacy and Health Sciences and a Bachelor of Science degree with a major in Biochemistry and Cell Biology from the University of California San Diego.",
             "Throughout her clinical training, Elizabeth completed rotations in various medical specialties, including Psychiatry, Family Medicine, Women's Health, Internal Medicine, Emergency Medicine, and Pediatrics. This diverse clinical experience has equipped her with a comprehensive understanding of different aspects of healthcare, allowing her to provide well-rounded and patient-centered care.",
