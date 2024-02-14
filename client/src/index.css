@@ -742,7 +742,7 @@ img {
 }
 
 .submenu-multi-column {
-    min-width: 860px;
+    min-width: 913px;
     display: grid;
     align-items: center;
     grid-gap: 0px; /* Adjust the gap between items */
@@ -752,10 +752,10 @@ img {
 }
 
 .sub-link {
-    padding: 15px 20px 15px 30px;
+    padding: 20px 20px 20px 20px;
     text-decoration: none;
     border-bottom: 1px solid var(--grey-light);
-    font-size: 1rem;
+    font-size: 0.95rem;
 }
 
 .sub-link:active {
