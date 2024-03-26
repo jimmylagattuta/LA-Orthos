@@ -2183,7 +2183,8 @@ export const navMenu = [
             'PRP Injections'
         ],
     },
-    { menu: 'Locations', link: '/locations' }
+    { menu: 'Locations', link: '/locations' },
+    { menu: 'Career', link: 'https://ats.rippling.com/los-angeles-orthopedic-surgery-specialists/jobs' }
 ];
 
 export const officesData = [
