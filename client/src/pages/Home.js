@@ -75,7 +75,7 @@ const Home = () => {
             <div className='button-wrapper'>
               <a
                 className='btn header-button-yellow'
-                href='https://www.zocdoc.com/practice/los-angeles-orthopedic-surgery-specialists-86604/'
+                href='https://www.zocdoc.com/practice/los-angeles-orthopedic-surgery-specialists-86604?lock=true&isNewPatient=false&referrerType=widget'
                 target='_blank'
                 rel='noopener noreferrer'
               >
