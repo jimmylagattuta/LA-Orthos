@@ -58,7 +58,7 @@ const Navbar = () => {
                     <div
                         onClick={() => {
                             toggleAppointmentForm();
-                            window.open('https://www.zocdoc.com/practice/los-angeles-orthopedic-surgery-specialists-86604', '_blank');
+                            window.open('https://www.zocdoc.com/practice/los-angeles-orthopedic-surgery-specialists-86604?lock=true&isNewPatient=false&referrerType=widget', '_blank');
                         }}
                         className='btn header-button-yellow'
                     >
