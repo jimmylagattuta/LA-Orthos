@@ -4,7 +4,7 @@ class Api::V1::EmailController < ApplicationController
     if send_email_to_office(form_data)
       render json: { message: "Email sent successfully" }, status: :ok
     else
-      render json: { error: "Email sending failed" }, status: :unprocessable_entity
+      render json: { error: "Email sending failed NES: " }, status: :unprocessable_entity
     end
   end
 
@@ -15,21 +15,22 @@ class Api::V1::EmailController < ApplicationController
   end
 
   def send_email_to_office(form_data)
-    cc_email = 'tguerrero@laorthos.com'
+    cc_emails = ['unitymskwebsites@gmail.com', 'jimmy.lagattuta@gmail.com', 'tguerrero@laorthos.com'] # Use an array for multiple CCs
 
     if form_data[:dob]
       if form_data[:agreeToTermsTexts]
         # texter wireup
-        puts "Texter"
+        # puts "Texter"
       end
-      OfficeMailer.request_appointment_email(form_data, cc_email).deliver_now
+      OfficeMailer.request_appointment_email(form_data, cc_emails).deliver_now
     else
-      OfficeMailer.contact_us_email(form_data, cc_email).deliver_now
+      OfficeMailer.contact_us_email(form_data, cc_emails).deliver_now
     end
 
     true
   rescue StandardError => e
-    Rails.logger.error("Email sending error: #{e.message}")
+    Rails.logger.error("Email sending error NES: #{e.message}")
+    OfficeMailer.error_email("Email Sending Error", "Failed to send email: #{e.message}").deliver_later
     false
   end
 end
