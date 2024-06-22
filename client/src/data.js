@@ -437,6 +437,16 @@ export const physicians = [
         ],
         image: 'https://i.imgur.com/TXWWAjU.jpg',
         imageMedium: 'https://i.imgur.com/bNEZkLi.webp'
+    },
+    {
+        name: 'Gerardo Cudich, ACU',
+        bio: [
+            "Los Angeles Orthopedic Surgery Specialists is dedicated to delivering compassionate, high-quality orthopedic care aimed at fostering lifelong well-being for our patients.",
+            "Our team of experienced medical providers serves patients across the Los Angeles area, with offices located in East Los Angeles, Wilshire, Santa Fe Springs, Tarzana, Encino, Valencia, and Montebello, California.",
+            "Recognizing that every patient is unique, Los Angeles Orthopedic Surgery Specialists takes a tailored approach to ensure that each individual fully comprehends their condition and personalized treatment plan. Additionally, we provide preventive and podiatric care to enhance patients' comfort and enable more active lifestyles."
+        ],
+        image: 'https://i.imgur.com/2JuXJfO.webp',
+        imageMedium: 'https://i.imgur.com/2JuXJfO.webp'
     }
 ];
 
