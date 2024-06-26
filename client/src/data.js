@@ -179,19 +179,19 @@ export const physicians = [
         image: 'https://i.imgur.com/sV3HLin.webp',
         imageMedium: 'https://i.imgur.com/yTGJC5j.webp'
     },
-    {
-        name: 'Yung Cho, M.D.',
-        bio: [
-            "Yung R. Cho, MD, brings a wealth of experience to his role at Los Angeles Orthopedic Surgery Specialists.",
-            "The practice serves patients in and around Los Angeles, with offices in East Los Angeles, Wilshire, Santa Fe Springs, Pico Rivera, Tarzana, Encino, Valencia, and Montebello, California, many of whom are pleased to call Dr. Cho their orthopedic specialist.",
-            "Dr. Cho completed his medical degree at Santa Casa de Sao Paulo in Sao Paulo, Brazil. Upon arriving in the United States, he completed a residency in orthopedics at Stanford University Medical Center in Palo, Alto, California.",
-            "Dr. Cho remained at Stanford University Medical Center to complete a fellowship in pediatric orthopedics. He also sought out a sports medicine orthopedic fellowship at Kaiser Permanente Medical Center in Santa Clara, California.",
-            "A proud member of the American Board of Orthopedic Surgeons, Dr. Cho continues to search for opportunities to refine and expand his surgical skills. He enjoys staying abreast of advancements within his field.",
-            "Patients enjoy working with Dr. Cho as they move toward enhanced joint health. They find him to be a highly skilled specialist who also understands the power of personalized care."
-        ],
-        image: 'https://i.imgur.com/8ez4TRw.webp',
-        imageMedium: 'https://i.imgur.com/MuRn5rI.webp'
-    },
+    // {
+    //     name: 'Yung Cho, M.D.',
+    //     bio: [
+    //         "Yung R. Cho, MD, brings a wealth of experience to his role at Los Angeles Orthopedic Surgery Specialists.",
+    //         "The practice serves patients in and around Los Angeles, with offices in East Los Angeles, Wilshire, Santa Fe Springs, Pico Rivera, Tarzana, Encino, Valencia, and Montebello, California, many of whom are pleased to call Dr. Cho their orthopedic specialist.",
+    //         "Dr. Cho completed his medical degree at Santa Casa de Sao Paulo in Sao Paulo, Brazil. Upon arriving in the United States, he completed a residency in orthopedics at Stanford University Medical Center in Palo, Alto, California.",
+    //         "Dr. Cho remained at Stanford University Medical Center to complete a fellowship in pediatric orthopedics. He also sought out a sports medicine orthopedic fellowship at Kaiser Permanente Medical Center in Santa Clara, California.",
+    //         "A proud member of the American Board of Orthopedic Surgeons, Dr. Cho continues to search for opportunities to refine and expand his surgical skills. He enjoys staying abreast of advancements within his field.",
+    //         "Patients enjoy working with Dr. Cho as they move toward enhanced joint health. They find him to be a highly skilled specialist who also understands the power of personalized care."
+    //     ],
+    //     image: 'https://i.imgur.com/8ez4TRw.webp',
+    //     imageMedium: 'https://i.imgur.com/MuRn5rI.webp'
+    // },
     {
         name: 'Brent Pickrell, M.D.',
         bio: [
@@ -410,8 +410,8 @@ export const physicians = [
             "A dedicated member of the California Academy of Physician Assistants (CAPA) since 2022, Orlando actively engages in professional development and stays abreast of the latest advancements in healthcare. Additionally, his commitment to community service is evident through his volunteer work with local civic organizations, further demonstrating his dedication to making a positive impact beyond the clinical setting.",
             "Orlando Campos is driven by a profound commitment to treating his patients with the utmost respect and providing comprehensive care to help them restore and maintain their health. His empathetic approach, combined with his extensive training and diverse experiences, positions him as a valuable asset in the healthcare community, dedicated to improving the lives of those he serves. Orlando is available for patient care at our Los Angeles and Santa Fe Springs locations."
          ],
-        image: 'https://i.imgur.com/7FwA1eX.webp',
-        imageMedium: 'https://i.imgur.com/7FwA1eX.webp'
+        image: 'https://i.imgur.com/x5gvHja.webp',
+        imageMedium: 'https://i.imgur.com/x5gvHja.webp'
     },
     {
         name: 'Damien Juncaj, PA-C',

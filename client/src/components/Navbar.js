@@ -127,19 +127,20 @@ const Navbar = () => {
                                         All {item.menu}
                                     </NavLink>
                                     <div className={`submenu-list ${item.subMenuItems.length > 16 ? 'submenu-multi-column' : item.subMenuItems.length > 6 ? 'submenu-two-column' : ''}`}>
-                                        {item.subMenuItems.map((subItem) => {
-                                            return (
-                                                <NavLink
-                                                    onClick={resetMobileMenu}
-                                                    key={subItem}
-                                                    to={`${item.link}/${subItem.toLowerCase().split(' ').join('-')}`}
-                                                    className={({ isActive }) =>
-                                                        isActive ? 'sub-link active' : 'sub-link'
-                                                    }>
-                                                    {subItem}
-                                                </NavLink>
-                                            );
-                                        })}
+                                    {item.subMenuItems.sort().map((subItem) => {
+                                        return (
+                                            <NavLink
+                                                onClick={resetMobileMenu}
+                                                key={subItem}
+                                                to={`${item.link}/${subItem.toLowerCase().split(' ').join('-')}`}
+                                                className={({ isActive }) =>
+                                                    isActive ? 'sub-link active' : 'sub-link'
+                                                }>
+                                                {subItem}
+                                            </NavLink>
+                                        );
+                                    })}
+
                                     </div>
                                 </div>
                             )}
