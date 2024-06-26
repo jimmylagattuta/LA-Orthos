@@ -11,26 +11,10 @@ const Physicians = () => {
                 </p>
             </div>
             <div className='page-grid'>
-                {physicians.map((physician) => {
-                    return (
-                        <div style={{ boxShadow: "6px 6px 8px #ddd" }} className='grid-item' key={physician.name}>
-                            <div className='image-container'>
-                                <Link
-                                    className='physician-link'
-                                    to={`/physicians/${
-                                        physician.name
-                                            .toLowerCase()
-                                            .split(' ')
-                                            .join('-') // Replace spaces with hyphens
-                                    }`}
-                                >
-                                    <img
-                                        src={physician.imageMedium}
-                                        alt={physician.name}
-                                        className='grid-image'
-                                    />
-                                </Link>
-                            </div>
+            {physicians.sort((a, b) => a.name.localeCompare(b.name)).map((physician) => {
+                return (
+                    <div style={{ boxShadow: "6px 6px 8px #ddd" }} className='grid-item' key={physician.name}>
+                        <div className='image-container'>
                             <Link
                                 className='physician-link'
                                 to={`/physicians/${
@@ -40,24 +24,41 @@ const Physicians = () => {
                                         .join('-') // Replace spaces with hyphens
                                 }`}
                             >
-                                <h5 className='physician-name'>{physician.name}</h5>
+                                <img
+                                    src={physician.imageMedium}
+                                    alt={physician.name}
+                                    className='grid-image'
+                                />
                             </Link>
-                            <Link
-                                className='physician-link'
-                                to={`/physicians/${
-                                    physician.name
-                                        .toLowerCase()
-                                        .split(' ')
-                                        .join('-') // Replace spaces with hyphens
-                                }`}
-                            >
-                                Read Bio
-                                <i className='fas fa-arrow-right physician-bio-icon'></i>
-                            </Link>
-
                         </div>
-                    );
-                })}
+                        <Link
+                            className='physician-link'
+                            to={`/physicians/${
+                                physician.name
+                                    .toLowerCase()
+                                    .split(' ')
+                                    .join('-') // Replace spaces with hyphens
+                            }`}
+                        >
+                            <h5 className='physician-name'>{physician.name}</h5>
+                        </Link>
+                        <Link
+                            className='physician-link'
+                            to={`/physicians/${
+                                physician.name
+                                    .toLowerCase()
+                                    .split(' ')
+                                    .join('-') // Replace spaces with hyphens
+                            }`}
+                        >
+                            Read Bio
+                            <i className='fas fa-arrow-right physician-bio-icon'></i>
+                        </Link>
+
+                    </div>
+                );
+            })}
+
             </div>
         </div>
     );
