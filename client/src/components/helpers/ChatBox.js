@@ -163,7 +163,7 @@ function ChatBox(props) {
       agreeToTerms: state.agreeToTerms,
     };
     try {
-      const response = await fetch('https://www.laorthos.com/api/v1/send-email', {
+      const response = await fetch(`${process.env.REACT_APP_API_BASE_URL}/api/v1/send-email`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
