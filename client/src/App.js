@@ -58,7 +58,7 @@ function App() {
                 <Route 
                     path='contact-us' 
                     element={
-                        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+                        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', flexDirection: 'column' }}>
                             <ChatBox />
                             <CompanyReviewsPage /> {/* Insert CompanyReviewsPage under the ChatBox */}
                         </div>
