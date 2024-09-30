@@ -1,11 +1,18 @@
 import React, { useRef, useEffect } from 'react';
 import PagesHeader from '../components/PagesHeader';
-import { Link } from 'react-router-dom';
 import OfficeCard from '../components/googleMapReact/OfficeCard';
 import ChatBox from './../components/helpers/ChatBox';
 const Locations = () => {
     const chatBoxRef = useRef(null);
 
+    useEffect(() => {
+        if (window.location.hash === '#chatbox') {
+            setTimeout(() => {
+                chatBoxRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 500);
+        }
+    }, []);
+    
     return (
         <>
             <PagesHeader title='Locations' />;
