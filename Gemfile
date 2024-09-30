@@ -21,6 +21,7 @@ gem "rack-cors", :require => 'rack/cors'
 gem 'redis-rails'
 gem "memcachier"
 gem 'terser'
+gem 'rack-rewrite'
 
 gem 'sidekiq'
 gem 'sidekiq-scheduler'
