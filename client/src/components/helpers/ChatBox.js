@@ -440,13 +440,14 @@ function ChatBox(props) {
             maxWidth: '80%',
             flexDirection: 'column',
             backgroundColor: 'white',
+            alignItems: 'center'
           }}
           onSubmit={handleSubmit}>
             <img
               src='https://i.imgur.com/3FM3KUI.webp'
               alt='LA Ortho Associates'
               className='header-image'
-              style={{ width: '300px', height: '120px' }}
+              style={{ width: '150px', height: '60px' }}
           />
           <p style={{ fontWeight: '400', letterSpacing: '0.05rem', alignSelf: 'center', fontSize: '0.8rem', fontFamily: 'sans-serif', paddingTop: '10px' }}>CONTACT US</p>
           <h2 style={{ fontWeight: '400', letterSpacing: '0.01rem', alignSelf: 'center', fontFamily: 'sans-serif', padding: '10px 5px 0px 5px', marginBottom: '0px' }}>Send A Message To Los Angeles Orthopedic Surgery Specialists</h2>

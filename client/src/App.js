@@ -15,6 +15,7 @@ import Services from './pages/services/Services';
 import ServicesLayout from './pages/services/ServicesLayout';
 import SingleService from './pages/services/SingleService';
 import ChatBox from './components/helpers/ChatBox';
+import CompanyReviewsPage from './components/helpers/CompanyReviewsPage'; // Import the reviews component
 
 function App() {
     const { pathname } = useLocation();
@@ -59,6 +60,7 @@ function App() {
                     element={
                         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
                             <ChatBox />
+                            <CompanyReviewsPage /> {/* Insert CompanyReviewsPage under the ChatBox */}
                         </div>
                     } 
                 />
