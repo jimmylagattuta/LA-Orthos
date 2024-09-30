@@ -14,8 +14,11 @@ import Physicians from './pages/physicians/Physicians';
 import Services from './pages/services/Services';
 import ServicesLayout from './pages/services/ServicesLayout';
 import SingleService from './pages/services/SingleService';
+import ChatBox from './components/helpers/ChatBox';
+
 function App() {
     const { pathname } = useLocation();
+
     useEffect(() => {
         window.scrollTo({
             top: 0,
@@ -23,15 +26,14 @@ function App() {
             behavior: 'instant',
         });
     }, [pathname]);
-    let elementHeight = document.getElementById('myElement');
-    let elementWidth = document.getElementById('myElement');
-    
-    
-    console.log('height', window.innerHeight + 'px');
-    console.log('width', window.innerWidth + 'px');
+
+    // Determine if the current page is 'contact-us'
+    const isContactPage = pathname === '/contact-us';
+
     return (
         <>
-            <Navbar />
+            {/* Render Navbar and Footer only if not on the 'contact-us' page */}
+            {!isContactPage && <Navbar />}
             <Routes>
                 <Route index element={<Home />} />
 
@@ -50,10 +52,12 @@ function App() {
                 <Route path='locations' element={<Locations />} />
                 <Route path='about' element={<AboutLayout />} />
                 <Route path='providers' element={<PhysiciansLayout />} />
+                <Route path='contact-us' element={<ChatBox />} />
                 <Route path='*' element={<Home />} />
             </Routes>
-            <Footer />
+            {!isContactPage && <Footer />}
         </>
     );
 }
+
 export default App;
