@@ -15,7 +15,7 @@ import Services from './pages/services/Services';
 import ServicesLayout from './pages/services/ServicesLayout';
 import SingleService from './pages/services/SingleService';
 import ChatBox from './components/helpers/ChatBox';
-import CompanyReviewsPage from './components/helpers/CompanyReviewsPage'; // Import the reviews component
+import CompanyReviewsPage from './components/CompanyReviewsPage'; // Import the reviews component
 
 function App() {
     const { pathname } = useLocation();
