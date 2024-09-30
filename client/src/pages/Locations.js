@@ -1,8 +1,11 @@
+import React, { useRef, useEffect } from 'react';
 import PagesHeader from '../components/PagesHeader';
 import { Link } from 'react-router-dom';
 import OfficeCard from '../components/googleMapReact/OfficeCard';
 import ChatBox from './../components/helpers/ChatBox';
 const Locations = () => {
+    const chatBoxRef = useRef(null);
+
     return (
         <>
             <PagesHeader title='Locations' />;
@@ -18,7 +21,7 @@ const Locations = () => {
             <div className='location-map-section'>
                 <OfficeCard />
             </div>
-            <div style={{ display: 'flex', justifyContent: 'center', padding: "110px 0px 45px 0px" }}>
+            <div ref={chatBoxRef} style={{ display: 'flex', justifyContent: 'center', padding: "110px 0px 45px 0px" }}>
                 <ChatBox />
             </div>
         </>
