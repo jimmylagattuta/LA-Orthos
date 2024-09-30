@@ -2,6 +2,8 @@ class ApplicationController < ActionController::Base
   include ActionController::Cookies
   before_action :authenticate_user
   before_action :cors_preflight_check
+  before_action :ensure_www_subdomain
+
   after_action :cors_set_access_control_headers
   protect_from_forgery with: :null_session
 
@@ -36,6 +38,12 @@ class ApplicationController < ActionController::Base
   end
 
   private
+
+  def ensure_www_subdomain
+    if request.host == "laorthos.com"
+      redirect_to "#{request.protocol}www.laorthos.com#{request.fullpath}", status: :moved_permanently
+    end
+  end
 
   def verified_request?
     super || valid_authenticity_token?(session, request.headers['X-CSRF-Token'])
