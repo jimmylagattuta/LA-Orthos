@@ -58,6 +58,12 @@ function App() {
                     path='contact-us' 
                     element={
                         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+                            <img
+                                src='https://i.imgur.com/3FM3KUI.webp'
+                                alt='LA Ortho Associates'
+                                className='header-image'
+                                style={{ width: '300px', height: '120px' }}
+                            />
                             <ChatBox />
                         </div>
                     } 
