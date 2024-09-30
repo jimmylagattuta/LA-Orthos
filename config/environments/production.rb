@@ -31,8 +31,6 @@ Rails.application.configure do
   }
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
   config.asset_host = "http://laorthos.com"
-  config.hosts << "laorthos.com"
-config.hosts << "www.laorthos.com"
 
   config.assets.compile = false
 
@@ -78,7 +76,7 @@ config.hosts << "www.laorthos.com"
   # Use a different logger for distributed setups.
   # require "syslog/logger"
   # config.logger = ActiveSupport::TaggedLogging.new(Syslog::Logger.new "app-name")
-  config.action_mailer.asset_host = "https://www.laorthos.com"
+  config.action_mailer.asset_host = "https://laorthos.com"
 
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
