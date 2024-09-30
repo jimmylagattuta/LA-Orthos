@@ -52,7 +52,17 @@ function App() {
                 <Route path='locations' element={<Locations />} />
                 <Route path='about' element={<AboutLayout />} />
                 <Route path='providers' element={<PhysiciansLayout />} />
-                <Route path='contact-us' element={<ChatBox />} />
+
+                {/* Center Contact Us page horizontally */}
+                <Route 
+                    path='contact-us' 
+                    element={
+                        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+                            <ChatBox />
+                        </div>
+                    } 
+                />
+                
                 <Route path='*' element={<Home />} />
             </Routes>
             {!isContactPage && <Footer />}
