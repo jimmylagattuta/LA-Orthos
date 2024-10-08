@@ -447,6 +447,20 @@ export const physicians = [
         ],
         image: 'https://i.imgur.com/2JuXJfO.webp',
         imageMedium: 'https://i.imgur.com/2JuXJfO.webp'
+    },
+    {
+        name: 'Leah T. Cyran, M.D.',
+        bio: [
+            "Dr. Leah T. Cyran is a board-certified orthopedic surgeon specializing in a wide range of orthopedic conditions, including shoulder, elbow, and knee, arthritis, sports injuries, and trauma.",
+            "She brings a patient-centered approach to orthopedic care, employing the latest medical technology combined with skillful surgical intervention to help patients regain mobility, strength, and function.",
+            "Dr. Cyran holds an undergraduate degree from New York University and completed her pre-medical studies at Columbia University. She earned her medical degree from the University of Medicine and Dentistry of New Jersey, where she was recognized for outstanding performance.",
+            "Afterward, she completed a five-year residency in Orthopedic Surgery at USC, where she served as Administrative Chief Resident and was awarded the 'Hardest Working Resident' Award.",
+            "Dr. Cyran pursued advanced training through fellowships in Shoulder and Elbow surgery at Baylor University and Adult Reconstruction surgery of the knee at USC. She has developed expertise in both conservative and surgical treatments, including arthroscopic and minimally invasive surgeries, joint replacements, and robotic arthroplasty.",
+            "In addition to her clinical work, Dr. Cyran has co-authored numerous publications and chapters in orthopedic surgery textbooks, and she continues to teach as a faculty member at USC, sharing her extensive knowledge with medical students and residents.",
+            "She is thrilled to be part of LAOSS, collaborating with Dr. Kevin Pelton and the rest of the team to provide high-quality care to the communities they serve."
+        ],
+        image: 'https://i.imgur.com/o8TW0n1.webp',
+        imageMedium: 'https://i.imgur.com/o8TW0n1.webp'
     }
 ];
 
