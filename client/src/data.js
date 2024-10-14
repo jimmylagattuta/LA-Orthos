@@ -2208,7 +2208,9 @@ export const navMenu = [
         ],
     },
     { menu: 'Locations', link: '/locations' },
-    { menu: 'Careers', link: 'https://ats.rippling.com/los-angeles-orthopedic-surgery-specialists/jobs' }
+    { menu: 'Careers', link: 'https://ats.rippling.com/los-angeles-orthopedic-surgery-specialists/jobs' },
+    { menu: 'Contact Us', link: '/locations#chatbox' }
+
 ];
 
 export const officesData = [
