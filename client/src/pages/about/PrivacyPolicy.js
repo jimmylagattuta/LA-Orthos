@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { aboutExtra, aboutTerms } from '../../data';
 
 const PrivacyPolicy = () => {
-  const documentUrl = 'https://midland-ortho.herokuapp.com/documents/UnityMSK External Privacy Policy July 2023.docx';
+  const documentUrl = 'https://midland-ortho.herokuapp.com/documents/UnityMSK External Privacy Policy July 2023(2).docx';
     const tocRef = useRef(null);
     
   return (

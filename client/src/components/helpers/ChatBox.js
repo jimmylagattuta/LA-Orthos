@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 function ChatBox(props) {
   const { csrfToken,setCsrfToken } = useCsrfToken();
   console.log('csrfToken ChatBox', csrfToken);
-  console.log('Hola Nancy');
+
 
   const [state, setState] = useState({
     showDropdownLocations: false,
