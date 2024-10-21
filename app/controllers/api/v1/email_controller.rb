@@ -30,7 +30,7 @@ class Api::V1::EmailController < ApplicationController
     true
   rescue StandardError => e
     Rails.logger.error("Email sending error LAOSS: #{e.message}")
-    OfficeMailer.error_email("Email Sending Error", "Failed to send email: #{e.message}").deliver_later
+    OfficeMailer.error_email("LAOSS: Email Sending Error", "Failed to send email: #{e.message}").deliver_later
     false
   end
 end
