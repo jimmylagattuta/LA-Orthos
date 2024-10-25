@@ -27,7 +27,10 @@ class GooglePlacesCached
   def self.cached_google_places_reviews
     begin
       puts "Connecting to Redis..."
-      redis = Redis.new(url: ENV['REDIS_URL'])
+      redis = Redis.new(
+        url: ENV['REDIS_URL'],
+        ssl_params: { verify_mode: OpenSSL::SSL::VERIFY_NONE }  # Disable SSL verification
+      )
       cached_data = redis.get('cached_google_places_reviews')
       puts "Cached data from Redis: #{cached_data}"
 
