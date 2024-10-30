@@ -52,8 +52,13 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className='header-buttons-container'>
-                    <NavLink className='btn header-button-dark' to='/locations'>
-                        Call Us
+                    <NavLink 
+                        className='btn header-button-dark' 
+                        to='https://z5-ppw.phreesia.net/z5/patient/Payment.aspx/Start?encrypted=y8Aw23QjQ14_3xpZl8YSLyGvtA8EGn28l3m9OCbmA56LzDvMA0K2zVB3HT_MvUCJfWGH-eTMIqwqkOCsojmQ_IyrUoE5_ZfgrWh61ZJDCljhexMTKvmJtHkQ7M_vqA-jxP93b0W6KwsIjwfyCsVC-c4a1N4p3utTmVZj94-rmO81'
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Pay Now
                     </NavLink>
                     <div
                         onClick={() => {
