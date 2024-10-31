@@ -11,6 +11,7 @@ Rails.application.routes.draw do
       delete "/logout", to: "sessions#destroy"
       get "/pull_google_places_cache", to: "jobs#pull_google_places_cache"
       post '/send-email', to: 'email#send_email'
+      post '/send-email-webmd', to: 'email#send_email_webmd'
 
     end
   end
