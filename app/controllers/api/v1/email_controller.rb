@@ -11,9 +11,9 @@ class Api::V1::EmailController < ApplicationController
   def send_email_webmd
     form_data = email_params
     if send_email_to_office_webmd(form_data)
-      render json: { message: "Email sent successfully" }, status: :ok
+      render json: { message: "Email sent successfully WebMD" }, status: :ok
     else
-      render json: { error: "Email sending failed LAOSS: " }, status: :unprocessable_entity
+      render json: { error: "Email sending failed LAOSS WebMD: " }, status: :unprocessable_entity
     end
   end
 
@@ -58,8 +58,8 @@ class Api::V1::EmailController < ApplicationController
 
     true
   rescue StandardError => e
-    Rails.logger.error("Email sending error LAOSS: #{e.message}")
-    OfficeMailer.error_email("LAOSS: Email Sending Error", "Failed to send email: #{e.message}").deliver_later
+    Rails.logger.error("Email sending error LAOSS WebMD: #{e.message}")
+    OfficeMailer.error_email("LAOSS WebMD: Email Sending Error", "Failed to send email: #{e.message}").deliver_later
     false
   end
 end
