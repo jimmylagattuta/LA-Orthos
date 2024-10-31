@@ -14,7 +14,7 @@ import Physicians from './pages/physicians/Physicians';
 import Services from './pages/services/Services';
 import ServicesLayout from './pages/services/ServicesLayout';
 import SingleService from './pages/services/SingleService';
-import ChatBox from './components/helpers/ChatBox';
+import ChatBoxWebMD from './components/helpers/ChatBoxWebMD';
 import CompanyReviewsPage from './components/CompanyReviewsPage'; // Import the reviews component
 
 function App() {
@@ -59,7 +59,7 @@ function App() {
                     path='contact-us-webmd' 
                     element={
                         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
-                            <ChatBox />
+                            <ChatBoxWebMD />
                             <CompanyReviewsPage /> {/* Insert CompanyReviewsPage under the ChatBox */}
                         </div>
                     } 
