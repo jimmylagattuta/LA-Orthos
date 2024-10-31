@@ -29,7 +29,7 @@ function App() {
     }, [pathname]);
 
     // Determine if the current page is 'contact-us'
-    const isContactPage = pathname === '/contact-us';
+    const isContactPage = pathname === '/contact-us-webmd';
 
     return (
         <>
