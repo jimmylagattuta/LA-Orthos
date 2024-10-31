@@ -56,7 +56,7 @@ function App() {
 
                 {/* Center Contact Us page horizontally */}
                 <Route 
-                    path='contact-us' 
+                    path='contact-us-webmd' 
                     element={
                         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
                             <ChatBox />
