@@ -24,7 +24,7 @@ class Api::V1::EmailController < ApplicationController
   end
 
   def send_email_to_office(form_data)
-    cc_emails = ['unitymskwebsites@gmail.com', 'jimmy.lagattuta@gmail.com', 'tguerrero@laorthos.com'] # Use an array for multiple CCs
+    cc_emails = ['tguerrero@laorthos.com'] # Use an array for multiple CCs
 
     if form_data[:dob]
       if form_data[:agreeToTermsTexts]
@@ -44,7 +44,7 @@ class Api::V1::EmailController < ApplicationController
   end
 
   def send_email_to_office_webmd(form_data)
-    cc_emails = ['unitymskwebsites@gmail.com', 'jimmy.lagattuta@gmail.com', 'eperez@laorthos.com', 'nperez@unitymsk.com'] # Use an array for multiple CCs
+    cc_emails = ['tguerrero@laorthos.com', 'eperez@laorthos.com'] # Use an array for multiple CCs
 
     if form_data[:dob]
       if form_data[:agreeToTermsTexts]
