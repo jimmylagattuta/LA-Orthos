@@ -48,7 +48,10 @@ class MonthlyJob
         filtered_reviews << review
       end
     end
-    redis = Redis.new(url: ENV['REDIS_URL'])
+    redis = Redis.new(
+      url: ENV['REDIS_URL'],
+      ssl_params: { verify_mode: OpenSSL::SSL::VERIFY_NONE }  # Disable SSL verification
+    )
     if redis.exists('cached_google_places_reviews')
       redis.del('cached_google_places_reviews')
     end
