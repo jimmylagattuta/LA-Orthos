@@ -31,7 +31,7 @@ export const products = [
 
 export const physicians = [
     {
-        name: 'Whitty Lee, PA-C',
+        name: 'Whitty Li, PA-C',
         bio: [
             "Whitty Li, a dedicated Physician Associate, brings a wealth of experience in both primary and orthopedic care.",
             "Whitty earned her Master of Science from Stony Brook University's Physician Assistant Program, where her Master’s Project delved into the comparison of TAVR vs SAVR in intermediate-risk patients. Complementing her advanced degree, she holds a Bachelor of Science in Biological Sciences from the University of California, Irvine.",
