@@ -461,6 +461,17 @@ export const physicians = [
         ],
         image: 'https://i.imgur.com/o8TW0n1.webp',
         imageMedium: 'https://i.imgur.com/o8TW0n1.webp'
+    },
+    {
+        name: 'Hayk Stepanyan, M.D.',
+        bio: [
+            "Dr. Stepanyan's educational journey began in Yerevan, Armenia, and led him to the University of California, Los Angeles (UCLA), where he graduated with honors. He earned his medical degree from Penn State College of Medicine, followed by an orthopedic surgery residency at UC Irvine Health, where he served as chief resident. His dedication to advanced surgical techniques and patient care continued through a sports medicine fellowship at Congress Orthopaedic",
+            'Renowned for his commitment to patient care, Dr. Stepanyan actively shares his knowledge by teaching residents and medical students, and his research has been published in esteemed medical journals. Fluent in Armenian and Russian, Dr. Stepanyan is a valuable addition to the LAOSS team, enhancing patient care with his diverse background and specialized expertise.',
+            'Dr. Kevin J. Pelton, President of LAOSS, expressed his enthusiasm about Dr. Stepanyan joining the team: “Dr. Stepanyan brings a unique blend of specialized training and a deep dedication to patient-centered care, making him a fantastic addition to our group. His expertise in hip, knee, and shoulder procedures complements our team’s strengths, and his commitment to continuous learning and teaching reflects the values we prioritize at LAOSS. We are excited to welcome him and know he will make a meaningful impact on our patients and community."',
+            '“I am thrilled to join the LAOSS family and look forward to collaborating with the team,” says Dr. Stepanyan. "My focus will be on hip, knee, and shoulder replacement surgeries, as well as ACL reconstructions, meniscal repairs, rotator cuff repairs, and more. I am also available to evaluate orthopedic trauma cases and am dedicated to providing personalized, top-quality care to our patients."'
+        ],
+        image: 'https://i.imgur.com/6OlSvWW.webp',
+        imageMedium: 'https://i.imgur.com/6OlSvWW.webp'
     }
 ];
 
